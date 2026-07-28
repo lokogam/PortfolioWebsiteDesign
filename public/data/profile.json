@@ -1,0 +1,23 @@
+{
+  "name": "Duvan Andrés Gambos",
+  "title": "Full Stack Developer",
+  "titleVariants": ["Full Stack Developer", "Backend Engineer", "Software Architect", "API Designer"],
+  "description": "Desarrollador Full Stack con más de 5 años de experiencia construyendo aplicaciones web escalables y de alto rendimiento. Apasionado por la arquitectura limpia, el código de calidad y las mejores prácticas de desarrollo.",
+  "descriptionEn": "Full Stack Developer with over 5 years of experience building scalable, high-performance web applications. Passionate about clean architecture, quality code, and development best practices.",
+  "email": "duvan@example.com",
+  "phone": "+57 300 000 0000",
+  "whatsapp": "573000000000",
+  "location": "Colombia",
+  "github": "https://github.com/lokogam",
+  "linkedin": "https://linkedin.com/in/duvan-gambos",
+  "cv": "/cv.pdf",
+  "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format",
+  "stats": {
+    "experience": 5,
+    "projects": 30,
+    "certificates": 25,
+    "technologies": 17
+  },
+  "about": "Soy un desarrollador Full Stack colombiano con pasión por crear soluciones tecnológicas innovadoras. Me especializo en el desarrollo de aplicaciones web robustas usando tecnologías modernas tanto en el backend como en el frontend. Creo en el código limpio, la documentación clara y el trabajo en equipo colaborativo.",
+  "aboutEn": "I am a Colombian Full Stack developer with a passion for creating innovative technology solutions. I specialize in developing robust web applications using modern technologies on both backend and frontend. I believe in clean code, clear documentation, and collaborative teamwork."
+}

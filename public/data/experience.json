@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "company": "TechCorp Solutions",
+    "role": "Senior Full Stack Developer",
+    "roleEn": "Senior Full Stack Developer",
+    "period": "2022 - Presente",
+    "periodEn": "2022 - Present",
+    "description": "Lideré el desarrollo de microservicios con Node.js y NestJS, implementé arquitecturas cloud en AWS, y mejoré el rendimiento de las APIs en un 60%. Mentoreo a desarrolladores junior y participo activamente en las decisiones de arquitectura.",
+    "descriptionEn": "Led microservices development with Node.js and NestJS, implemented cloud architectures on AWS, and improved API performance by 60%. I mentor junior developers and actively participate in architecture decisions.",
+    "technologies": ["Node.js", "NestJS", "React", "AWS", "Docker", "PostgreSQL"],
+    "type": "work"
+  },
+  {
+    "id": 2,
+    "company": "Digital Agency Colombia",
+    "role": "Full Stack Developer",
+    "roleEn": "Full Stack Developer",
+    "period": "2020 - 2022",
+    "periodEn": "2020 - 2022",
+    "description": "Desarrollé aplicaciones web completas usando Laravel y Vue.js. Gestioné bases de datos MySQL y PostgreSQL, integré APIs de terceros y entregué proyectos para clientes del sector financiero y educativo.",
+    "descriptionEn": "Developed complete web applications using Laravel and Vue.js. Managed MySQL and PostgreSQL databases, integrated third-party APIs, and delivered projects for clients in the financial and educational sectors.",
+    "technologies": ["Laravel", "Vue.js", "MySQL", "Redis", "Git"],
+    "type": "work"
+  },
+  {
+    "id": 3,
+    "company": "Startup Innovate",
+    "role": "Backend Developer",
+    "roleEn": "Backend Developer",
+    "period": "2019 - 2020",
+    "periodEn": "2019 - 2020",
+    "description": "Construí APIs RESTful con PHP y Laravel para una plataforma de e-commerce. Implementé sistemas de caché con Redis, optimizé consultas SQL y contribuí a reducir el tiempo de respuesta de la aplicación en un 40%.",
+    "descriptionEn": "Built RESTful APIs with PHP and Laravel for an e-commerce platform. Implemented caching systems with Redis, optimized SQL queries, and helped reduce application response time by 40%.",
+    "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker"],
+    "type": "work"
+  }
+]

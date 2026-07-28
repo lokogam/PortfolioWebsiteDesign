@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "AWS Cloud Practitioner",
+    "nameEn": "AWS Cloud Practitioner",
+    "institution": "Amazon Web Services",
+    "institutionKey": "AWS",
+    "date": "2023-06",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=280&fit=crop&auto=format",
+    "url": "https://aws.amazon.com/certification"
+  },
+  {
+    "id": 2,
+    "name": "AWS Solutions Architect Associate",
+    "nameEn": "AWS Solutions Architect Associate",
+    "institution": "Amazon Web Services",
+    "institutionKey": "AWS",
+    "date": "2023-11",
+    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=280&fit=crop&auto=format",
+    "url": "https://aws.amazon.com/certification"
+  },
+  {
+    "id": 3,
+    "name": "Docker & Kubernetes Fundamentals",
+    "nameEn": "Docker & Kubernetes Fundamentals",
+    "institution": "Udemy",
+    "institutionKey": "Udemy",
+    "date": "2023-03",
+    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335a?w=400&h=280&fit=crop&auto=format",
+    "url": "https://udemy.com"
+  },
+  {
+    "id": 4,
+    "name": "Node.js - The Complete Guide",
+    "nameEn": "Node.js - The Complete Guide",
+    "institution": "Udemy",
+    "institutionKey": "Udemy",
+    "date": "2022-08",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=280&fit=crop&auto=format",
+    "url": "https://udemy.com"
+  },
+  {
+    "id": 5,
+    "name": "React - The Complete Guide 2024",
+    "nameEn": "React - The Complete Guide 2024",
+    "institution": "Udemy",
+    "institutionKey": "Udemy",
+    "date": "2024-01",
+    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=280&fit=crop&auto=format",
+    "url": "https://udemy.com"
+  },
+  {
+    "id": 6,
+    "name": "Escuela de Desarrollo Web",
+    "nameEn": "Web Development School",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-07",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com"
+  },
+  {
+    "id": 7,
+    "name": "Curso de TypeScript",
+    "nameEn": "TypeScript Course",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-02",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com"
+  },
+  {
+    "id": 8,
+    "name": "Curso de NestJS",
+    "nameEn": "NestJS Course",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-09",
+    "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com"
+  },
+  {
+    "id": 9,
+    "name": "Google Analytics Certified",
+    "nameEn": "Google Analytics Certified",
+    "institution": "Google",
+    "institutionKey": "Google",
+    "date": "2022-05",
+    "image": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=400&h=280&fit=crop&auto=format",
+    "url": "https://skillshop.google.com"
+  },
+  {
+    "id": 10,
+    "name": "Laravel Certified Developer",
+    "nameEn": "Laravel Certified Developer",
+    "institution": "Laravel LLC",
+    "institutionKey": "Laravel",
+    "date": "2022-11",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://laravel.com"
+  }
+]

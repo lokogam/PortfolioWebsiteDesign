@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "E-Commerce Platform",
+    "description": "Plataforma de comercio electrónico completa con gestión de inventario, pasarela de pagos y panel de administración en tiempo real.",
+    "descriptionEn": "Complete e-commerce platform with inventory management, payment gateway, and real-time admin dashboard.",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&auto=format",
+    "technologies": ["Laravel", "Vue.js", "MySQL", "Redis", "Docker"],
+    "github": "https://github.com/lokogam",
+    "demo": "https://demo.example.com",
+    "status": "Completado",
+    "statusEn": "Completed",
+    "date": "2023-08"
+  },
+  {
+    "id": 2,
+    "name": "Task Management API",
+    "description": "API RESTful para gestión de proyectos y tareas con autenticación JWT, roles y permisos, notificaciones en tiempo real con WebSockets.",
+    "descriptionEn": "RESTful API for project and task management with JWT authentication, roles and permissions, real-time notifications with WebSockets.",
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop&auto=format",
+    "technologies": ["NestJS", "TypeScript", "PostgreSQL", "Socket.io", "Docker"],
+    "github": "https://github.com/lokogam",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-02"
+  },
+  {
+    "id": 3,
+    "name": "Analytics Dashboard",
+    "description": "Dashboard analítico con visualizaciones de datos en tiempo real, reportes exportables y sistema de alertas para monitoreo de KPIs empresariales.",
+    "descriptionEn": "Analytical dashboard with real-time data visualizations, exportable reports, and alert system for monitoring business KPIs.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&auto=format",
+    "technologies": ["React", "TypeScript", "Node.js", "MongoDB", "AWS"],
+    "github": "https://github.com/lokogam",
+    "demo": "https://demo.example.com",
+    "status": "Completado",
+    "statusEn": "Completed",
+    "date": "2023-11"
+  },
+  {
+    "id": 4,
+    "name": "Microservices Architecture",
+    "description": "Arquitectura de microservicios para plataforma fintech con Event Sourcing, CQRS y orquestación con Kubernetes en AWS EKS.",
+    "descriptionEn": "Microservices architecture for fintech platform with Event Sourcing, CQRS, and Kubernetes orchestration on AWS EKS.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop&auto=format",
+    "technologies": ["Java", "Spring Boot", "Kafka", "PostgreSQL", "Kubernetes"],
+    "github": "https://github.com/lokogam",
+    "demo": "",
+    "status": "Completado",
+    "statusEn": "Completed",
+    "date": "2024-01"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Personal",
+    "description": "Portafolio web personal con modo oscuro, animaciones fluidas, internacionalización y carga de datos desde JSON.",
+    "descriptionEn": "Personal web portfolio with dark mode, fluid animations, internationalization, and data loading from JSON.",
+    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop&auto=format",
+    "technologies": ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
+    "github": "https://github.com/lokogam",
+    "demo": "https://lokogam.github.io",
+    "status": "Activo",
+    "statusEn": "Active",
+    "date": "2024-07"
+  },
+  {
+    "id": 6,
+    "name": "Real-time Chat App",
+    "description": "Aplicación de chat en tiempo real con salas, mensajes privados, compartición de archivos y notificaciones push.",
+    "descriptionEn": "Real-time chat application with rooms, private messages, file sharing, and push notifications.",
+    "image": "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&h=400&fit=crop&auto=format",
+    "technologies": ["React", "Node.js", "Socket.io", "MongoDB", "Redis"],
+    "github": "https://github.com/lokogam",
+    "demo": "",
+    "status": "Completado",
+    "statusEn": "Completed",
+    "date": "2023-05"
+  }
+]

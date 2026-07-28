@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "AWS Cloud Practitioner",
+    "institution": "Amazon Web Services",
+    "date": "2023-06",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/badges/example1"
+  },
+  {
+    "id": 2,
+    "name": "Docker Essentials",
+    "institution": "IBM",
+    "date": "2022-12",
+    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335a?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/badges/example2"
+  },
+  {
+    "id": 3,
+    "name": "GitHub Foundations",
+    "institution": "GitHub",
+    "date": "2023-09",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/badges/example3"
+  },
+  {
+    "id": 4,
+    "name": "Linux Essentials",
+    "institution": "LPI",
+    "date": "2023-01",
+    "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/badges/example4"
+  }
+]

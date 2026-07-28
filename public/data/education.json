@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "institution": "Universidad Nacional de Colombia",
+    "degree": "Ingeniería de Sistemas e Informática",
+    "degreeEn": "Systems and Computer Engineering",
+    "period": "2015 - 2020",
+    "description": "Formación integral en ciencias de la computación, algoritmos, estructuras de datos, bases de datos y desarrollo de software.",
+    "descriptionEn": "Comprehensive training in computer science, algorithms, data structures, databases, and software development.",
+    "type": "education"
+  },
+  {
+    "id": 2,
+    "institution": "Platzi",
+    "degree": "Escuela de Desarrollo Web",
+    "degreeEn": "Web Development School",
+    "period": "2020 - 2023",
+    "description": "Más de 60 cursos completados en desarrollo web, cloud computing, DevOps y arquitectura de software.",
+    "descriptionEn": "More than 60 completed courses in web development, cloud computing, DevOps, and software architecture.",
+    "type": "education"
+  },
+  {
+    "id": 3,
+    "institution": "AWS Training",
+    "degree": "AWS Cloud Practitioner Essentials",
+    "degreeEn": "AWS Cloud Practitioner Essentials",
+    "period": "2022",
+    "description": "Fundamentos de computación en la nube con Amazon Web Services.",
+    "descriptionEn": "Fundamentals of cloud computing with Amazon Web Services.",
+    "type": "education"
+  }
+]

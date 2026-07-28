@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Curso de React.js",
+    "nameEn": "React.js Course",
+    "teacher": "Nicolas Molina",
+    "date": "2023-10",
+    "category": "Frontend",
+    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=220&fit=crop&auto=format",
+    "url": "https://platzi.com"
+  },
+  {
+    "id": 2,
+    "name": "Curso de Node.js",
+    "nameEn": "Node.js Course",
+    "teacher": "Óscar Barajas",
+    "date": "2023-07",
+    "category": "Backend",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=220&fit=crop&auto=format",
+    "url": "https://platzi.com"
+  },
+  {
+    "id": 3,
+    "name": "Curso de Docker",
+    "nameEn": "Docker Course",
+    "teacher": "Carlos Hernández",
+    "date": "2023-04",
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335a?w=400&h=220&fit=crop&auto=format",
+    "url": "https://platzi.com"
+  },
+  {
+    "id": 4,
+    "name": "Curso de AWS",
+    "nameEn": "AWS Course",
+    "teacher": "Óscar Barajas",
+    "date": "2022-11",
+    "category": "Cloud",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=220&fit=crop&auto=format",
+    "url": "https://platzi.com"
+  },
+  {
+    "id": 5,
+    "name": "Curso de TypeScript",
+    "nameEn": "TypeScript Course",
+    "teacher": "Nicolas Molina",
+    "date": "2023-01",
+    "category": "Frontend",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=220&fit=crop&auto=format",
+    "url": "https://platzi.com"
+  },
+  {
+    "id": 6,
+    "name": "Curso de NestJS",
+    "nameEn": "NestJS Course",
+    "teacher": "Óscar Barajas",
+    "date": "2023-08",
+    "category": "Backend",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=220&fit=crop&auto=format",
+    "url": "https://platzi.com"
+  }
+]
