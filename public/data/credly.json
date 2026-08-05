@@ -1,34 +1,90 @@
 [
   {
     "id": 1,
-    "name": "AWS Cloud Practitioner",
-    "institution": "Amazon Web Services",
-    "date": "2023-06",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=300&h=300&fit=crop&auto=format",
-    "url": "https://www.credly.com/badges/example1"
+    "name": "CRUD Operations in MongoDB",
+    "institution": "MongoDB",
+    "date": "2026-08-05",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
   },
   {
     "id": 2,
-    "name": "Docker Essentials",
-    "institution": "IBM",
-    "date": "2022-12",
-    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335a?w=300&h=300&fit=crop&auto=format",
-    "url": "https://www.credly.com/badges/example2"
+    "name": "AWS SimuLearn - Cloud Practitioner - Training Badge",
+    "institution": "Amazon Web Services Training and Certification",
+    "date": "2026-07-31",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
   },
   {
     "id": 3,
-    "name": "GitHub Foundations",
-    "institution": "GitHub",
-    "date": "2023-09",
-    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=300&h=300&fit=crop&auto=format",
-    "url": "https://www.credly.com/badges/example3"
+    "name": "Cyber Threat Management",
+    "institution": "Cisco",
+    "date": "2025-05-01",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
   },
   {
     "id": 4,
-    "name": "Linux Essentials",
-    "institution": "LPI",
-    "date": "2023-01",
-    "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=300&h=300&fit=crop&auto=format",
-    "url": "https://www.credly.com/badges/example4"
+    "name": "Network Defense",
+    "institution": "Cisco",
+    "date": "2025-04-30",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
+  },
+  {
+    "id": 5,
+    "name": "Endpoint Security",
+    "institution": "Cisco",
+    "date": "2025-04-29",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
+  },
+  {
+    "id": 6,
+    "name": "Networking Devices and Initial Configuration",
+    "institution": "Cisco",
+    "date": "2025-04-28",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
+  },
+  {
+    "id": 7,
+    "name": "Networking Basics",
+    "institution": "Cisco",
+    "date": "2025-04-26",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
+  },
+  {
+    "id": 8,
+    "name": "Introduction to Cybersecurity",
+    "institution": "Cisco",
+    "date": "2025-04-25",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
+  },
+  {
+    "id": 9,
+    "name": "Digital Awareness",
+    "institution": "Cisco",
+    "date": "2025-04-24",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
+  },
+  {
+    "id": 10,
+    "name": "Data Analysis with Python",
+    "institution": "Coursera",
+    "date": "2024-06-21",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
+  },
+  {
+    "id": 11,
+    "name": "Análisis de Datos con Python",
+    "institution": "Coursera",
+    "date": "2024-06-21",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&h=300&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
   }
 ]

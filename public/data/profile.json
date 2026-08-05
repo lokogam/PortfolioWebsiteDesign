@@ -1,25 +1,30 @@
 {
-  "name": "Duvan Andrés Gambos",
-  "title": "Full Stack Developer",
-  "titleVariants": ["Full Stack Developer", "Backend Engineer", "Software Architect", "API Designer"],
-  "description": "Desarrollador Full Stack con más de 5 años de experiencia construyendo aplicaciones web escalables y de alto rendimiento. Apasionado por la arquitectura limpia, el código de calidad y las mejores prácticas de desarrollo.",
-  "descriptionEn": "Full Stack Developer with over 5 years of experience building scalable, high-performance web applications. Passionate about clean architecture, quality code, and development best practices.",
-  "email": "duvan@example.com",
-  "phone": "+57 300 000 0000",
-  "whatsapp": "573000000000",
+  "name": "Duvan Andrés Gamboa",
+  "title": "Desarrollador Full Stack",
+  "titleVariants": [
+    "Desarrollador Full Stack",
+    "Full Stack Developer",
+    "Backend Developer",
+    "Cloud & AI Builder"
+  ],
+  "description": "Transformo ideas en soluciones digitales escalables.",
+  "descriptionEn": "I transform ideas into scalable digital solutions.",
+  "email": "duvan.gamboa.dev@gmail.com",
+  "phone": "+57 315 633 4898",
+  "whatsapp": "573156334898",
   "location": "Colombia",
   "github": "https://github.com/lokogam",
-  "linkedin": "https://linkedin.com/in/duvan-gambos",
+  "linkedin": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/",
   "cv": "/cv.pdf",
-  "platzi": "https://platzi.com/p/tu-usuario/",
-  "credly": "https://www.credly.com/users/tu-usuario/badges",
-  "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format",
+  "platzi": "https://platzi.com/p/duvan_gamboa/",
+  "credly": "https://www.credly.com/users/duvan-gamboa",
+  "avatar": "/profile.png",
   "stats": {
-    "experience": 5,
+    "experience": 4,
     "projects": 30,
-    "certificates": 25,
-    "technologies": 17
+    "certificates": 40,
+    "technologies": 12
   },
-  "about": "Soy un desarrollador Full Stack colombiano con pasión por crear soluciones tecnológicas innovadoras. Me especializo en el desarrollo de aplicaciones web robustas usando tecnologías modernas tanto en el backend como en el frontend. Creo en el código limpio, la documentación clara y el trabajo en equipo colaborativo.",
-  "aboutEn": "I am a Colombian Full Stack developer with a passion for creating innovative technology solutions. I specialize in developing robust web applications using modern technologies on both backend and frontend. I believe in clean code, clear documentation, and collaborative teamwork."
+  "about": "Tecnólogo en Desarrollo de Software con más de 4 años de experiencia profesional en Laravel, Node.js, Vue, React y tecnologías Cloud e Inteligencia Artificial. Transformo ideas en soluciones digitales escalables que impulsan la eficiencia operativa y la innovación. Desarrollo aplicaciones web optimizadas, automatizo procesos y creo APIs RESTful eficientes para integrar sistemas y mejorar la experiencia de usuario. Apasionado por la convergencia entre backend, cloud computing e IA, buscando siempre liderar proyectos transformadores con alto impacto técnico y social.",
+  "aboutEn": "Software Development Technologist with more than 4 years of professional experience in Laravel, Node.js, Vue, React, and Cloud and Artificial Intelligence technologies. I transform ideas into scalable digital solutions that drive operational efficiency and innovation. I build optimized web applications, automate processes, and create efficient RESTful APIs to integrate systems and improve user experience. I am passionate about the convergence of backend, cloud computing, and AI, and I am always looking to lead transformative projects with high technical and social impact."
 }

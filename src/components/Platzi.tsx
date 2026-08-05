@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import SectionWrapper, { SectionHeader } from './SectionWrapper'
+import SectionWrapper from './SectionWrapper'
 import { FiExternalLink, FiUser } from 'react-icons/fi'
 
 interface PlatziCourse {
@@ -32,11 +32,6 @@ export default function Platzi({ items }: { items: PlatziCourse[] | null }) {
   return (
     <SectionWrapper id="platzi">
       <div className="max-w-6xl mx-auto">
-        <SectionHeader
-          tag="Platzi"
-          title={t('platzi.title')}
-          subtitle={t('platzi.subtitle')}
-        />
         {/* Category filter */}
         <div className="flex flex-wrap gap-2 justify-center mb-8">
           {categories.map((cat) => (

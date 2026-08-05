@@ -1,12 +1,16 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import { FiGithub, FiLinkedin, FiMail, FiHeart, FiArrowUp } from 'react-icons/fi'
+import { SiPlatzi } from 'react-icons/si'
+import { FiAward } from 'react-icons/fi'
 
 interface Profile {
   name: string
   github: string
   linkedin: string
   email: string
+  platzi?: string
+  credly?: string
 }
 
 export default function Footer({ profile }: { profile: Profile | null }) {
@@ -35,6 +39,8 @@ export default function Footer({ profile }: { profile: Profile | null }) {
             { icon: FiGithub, href: profile?.github, label: 'GitHub' },
             { icon: FiLinkedin, href: profile?.linkedin, label: 'LinkedIn' },
             { icon: FiMail, href: `mailto:${profile?.email}`, label: 'Email' },
+            { icon: SiPlatzi, href: profile?.platzi, label: 'Platzi' },
+            { icon: FiAward, href: profile?.credly, label: 'Credly' },
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
@@ -50,7 +56,7 @@ export default function Footer({ profile }: { profile: Profile | null }) {
         </div>
 
         <p className="text-[var(--muted-foreground)] text-sm flex items-center gap-1.5 flex-wrap justify-center text-center">
-          © {year} {profile?.name ?? 'Duvan Andrés Gambos'}. {t('footer.rights')}
+          © {year} {profile?.name ?? 'Duvan Andrés Gamboa'}. {t('footer.rights')}
           <span className="flex items-center gap-1">
             {t('footer.madeWith')} <FiHeart className="text-red-500 inline" size={12} />
           </span>

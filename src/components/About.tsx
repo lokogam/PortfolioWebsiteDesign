@@ -11,6 +11,9 @@ interface Profile {
   email: string
   phone: string
   avatar: string
+  stats?: {
+    experience: number
+  }
 }
 
 export default function About({ profile }: { profile: Profile | null }) {
@@ -45,8 +48,8 @@ export default function About({ profile }: { profile: Profile | null }) {
               </div>
               <div className="absolute -bottom-4 -right-4 w-full h-full rounded-2xl border-2 border-blue-500/30 pointer-events-none" />
               <div className="absolute -top-3 -left-3 w-24 h-24 rounded-xl bg-blue-500/10 backdrop-blur-sm border border-blue-500/20 flex flex-col items-center justify-center">
-                <span className="text-2xl font-bold text-blue-500">5+</span>
-                <span className="text-xs text-[var(--muted-foreground)] text-center leading-tight">Años exp.</span>
+                <span className="text-2xl font-bold text-blue-500">{profile?.stats?.experience ?? 4}+</span>
+                <span className="text-xs text-[var(--muted-foreground)] text-center leading-tight">{t('about.experienceBadge')}</span>
               </div>
             </div>
           </motion.div>
@@ -64,8 +67,8 @@ export default function About({ profile }: { profile: Profile | null }) {
             <div className="space-y-3">
               {[
                 { icon: FiMapPin, label: profile?.location ?? 'Colombia' },
-                { icon: FiMail, label: profile?.email ?? 'duvan@example.com' },
-                { icon: FiPhone, label: profile?.phone ?? '+57 300 000 0000' },
+                { icon: FiMail, label: profile?.email ?? 'duvan.gamboa.dev@gmail.com' },
+                { icon: FiPhone, label: profile?.phone ?? '+57 315 633 4898' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-3 text-[var(--muted-foreground)] text-sm">
                   <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center">

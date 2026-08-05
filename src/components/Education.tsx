@@ -9,6 +9,7 @@ interface EducationItem {
   degree: string
   degreeEn: string
   period: string
+  periodEn?: string
   description: string
   descriptionEn: string
 }
@@ -42,7 +43,9 @@ export default function Education({ items }: { items: EducationItem[] | null }) 
                   {i18n.language === 'es' ? item.degree : item.degreeEn}
                 </h3>
                 <p className="text-violet-400 text-sm font-medium">{item.institution}</p>
-                <p className="text-[var(--muted-foreground)] text-xs mb-2">{item.period}</p>
+                <p className="text-[var(--muted-foreground)] text-xs mb-2">
+                  {i18n.language === 'es' ? item.period : item.periodEn ?? item.period}
+                </p>
                 <p className="text-[var(--muted-foreground)] text-sm leading-relaxed">
                   {i18n.language === 'es' ? item.description : item.descriptionEn}
                 </p>

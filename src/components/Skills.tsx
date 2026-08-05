@@ -5,9 +5,10 @@ import SectionWrapper, { SectionHeader } from './SectionWrapper'
 import {
   SiPhp, SiLaravel, SiJavascript, SiTypescript, SiReact, SiVuedotjs,
   SiNodedotjs, SiNestjs, SiMysql, SiPostgresql, SiMongodb, SiDocker,
-  SiGit, SiLinux, SiRedis
+  SiGit, SiLinux, SiRedis, SiPython, SiGithub, SiGithubcopilot, SiClaude, SiAnthropic
 } from 'react-icons/si'
 import { FaJava, FaAws } from 'react-icons/fa'
+import { FiCpu } from 'react-icons/fi'
 import { useState } from 'react'
 
 const TECH_ICONS: Record<string, React.ReactNode> = {
@@ -26,7 +27,13 @@ const TECH_ICONS: Record<string, React.ReactNode> = {
   Redis: <SiRedis className="text-red-500" />,
   Docker: <SiDocker className="text-blue-400" />,
   AWS: <FaAws className="text-orange-400" />,
+  Python: <SiPython className="text-yellow-300" />,
+  'Artificial Intelligence': <FiCpu className="text-cyan-300" />,
   Git: <SiGit className="text-orange-500" />,
+  GitHub: <SiGithub className="text-slate-300" />,
+  'GitHub Copilot': <SiGithubcopilot className="text-cyan-300" />,
+  Claude: <SiClaude className="text-orange-300" />,
+  Anthropic: <SiAnthropic className="text-orange-300" />,
   Linux: <SiLinux className="text-yellow-400" />,
 }
 

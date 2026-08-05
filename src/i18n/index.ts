@@ -20,13 +20,14 @@ const resources = {
       },
       hero: {
         greeting: 'Hola, soy',
-        downloadCV: 'Descargar CV',
-        contact: 'Contactar',
+        downloadCV: 'Ver CV',
+        contact: 'Contáctame',
         scrollDown: 'Desplázate hacia abajo',
       },
       about: {
         title: 'Sobre mí',
         subtitle: 'Conoce más sobre mi trayectoria y valores',
+        experienceBadge: 'Años exp.',
       },
       skills: {
         title: 'Habilidades',
@@ -92,6 +93,7 @@ const resources = {
       contact: {
         title: 'Contacto',
         subtitle: 'Hablemos sobre tu próximo proyecto',
+        platforms: 'Puedes contactarme a través de cualquiera de estas plataformas.',
         name: 'Nombre',
         email: 'Correo electrónico',
         message: 'Mensaje',
@@ -127,13 +129,14 @@ const resources = {
       },
       hero: {
         greeting: "Hi, I'm",
-        downloadCV: 'Download CV',
+        downloadCV: 'View CV',
         contact: 'Contact me',
         scrollDown: 'Scroll down',
       },
       about: {
         title: 'About me',
         subtitle: 'Learn more about my journey and values',
+        experienceBadge: 'Yrs exp.',
       },
       skills: {
         title: 'Skills',
@@ -199,6 +202,7 @@ const resources = {
       contact: {
         title: 'Contact',
         subtitle: "Let's talk about your next project",
+        platforms: 'You can reach me through any of these platforms.',
         name: 'Name',
         email: 'Email address',
         message: 'Message',

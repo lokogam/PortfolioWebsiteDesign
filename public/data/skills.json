@@ -1,36 +1,26 @@
 {
   "backend": [
-    { "name": "PHP", "level": 90, "icon": "php" },
     { "name": "Laravel", "level": 92, "icon": "laravel" },
-    { "name": "Java", "level": 75, "icon": "java" },
-    { "name": "Node.js", "level": 88, "icon": "nodejs" },
-    { "name": "NestJS", "level": 82, "icon": "nestjs" }
+    { "name": "Node.js", "level": 90, "icon": "nodejs" },
+    { "name": "Python", "level": 80, "icon": "python" }
   ],
   "frontend": [
-    { "name": "JavaScript", "level": 92, "icon": "javascript" },
-    { "name": "TypeScript", "level": 88, "icon": "typescript" },
     { "name": "React", "level": 90, "icon": "react" },
-    { "name": "Vue.js", "level": 80, "icon": "vue" }
+    { "name": "Vue.js", "level": 88, "icon": "vue" }
   ],
   "databases": [
-    { "name": "MySQL", "level": 90, "icon": "mysql" },
-    { "name": "PostgreSQL", "level": 85, "icon": "postgresql" },
-    { "name": "MongoDB", "level": 78, "icon": "mongodb" },
-    { "name": "Redis", "level": 75, "icon": "redis" }
+    { "name": "MySQL", "level": 90, "icon": "mysql" }
   ],
   "cloud": [
-    { "name": "AWS", "level": 80, "icon": "aws" },
-    { "name": "Docker", "level": 88, "icon": "docker" },
-    { "name": "Linux", "level": 85, "icon": "linux" }
+    { "name": "AWS", "level": 85, "icon": "aws" }
   ],
   "devops": [
-    { "name": "Git", "level": 95, "icon": "git" },
-    { "name": "Docker", "level": 88, "icon": "docker" },
-    { "name": "CI/CD", "level": 78, "icon": "cicd" }
+    { "name": "Docker", "level": 88, "icon": "docker" }
   ],
   "tools": [
-    { "name": "VS Code", "level": 95, "icon": "vscode" },
-    { "name": "Postman", "level": 90, "icon": "postman" },
-    { "name": "Jira", "level": 80, "icon": "jira" }
+    { "name": "Artificial Intelligence", "level": 82, "icon": "ai" },
+    { "name": "GitHub", "level": 88, "icon": "github" },
+    { "name": "GitHub Copilot", "level": 84, "icon": "githubcopilot" },
+    { "name": "Claude", "level": 80, "icon": "claude" }
   ]
 }
