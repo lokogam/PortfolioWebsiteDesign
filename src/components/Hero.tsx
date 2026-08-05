@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import { motion, type Variants, type Transition } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { FiGithub, FiLinkedin, FiDownload, FiMail, FiChevronDown } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiDownload, FiMail, FiChevronDown, FiAward } from 'react-icons/fi'
+import { SiPlatzi } from 'react-icons/si'
 
 interface Profile {
   name: string
@@ -15,6 +16,8 @@ interface Profile {
   avatar: string
   cv: string
   whatsapp: string
+  platzi?: string
+  credly?: string
 }
 
 interface HeroProps {
@@ -236,6 +239,32 @@ export default function Hero({ profile }: HeroProps) {
           >
             <FiLinkedin size={18} />
           </motion.a>
+          {profile?.platzi && (
+            <motion.a
+              href={profile.platzi}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              className="w-11 h-11 rounded-xl border border-[var(--border)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[#98ca3f] hover:border-[#98ca3f] transition-all duration-200"
+              aria-label="Platzi"
+            >
+              <SiPlatzi size={18} />
+            </motion.a>
+          )}
+          {profile?.credly && (
+            <motion.a
+              href={profile.credly}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              className="w-11 h-11 rounded-xl border border-[var(--border)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-orange-400 hover:border-orange-400 transition-all duration-200"
+              aria-label="Credly"
+            >
+              <FiAward size={18} />
+            </motion.a>
+          )}
         </motion.div>
 
         {/* Tech pills */}
