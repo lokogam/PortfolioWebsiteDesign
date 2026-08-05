@@ -9,7 +9,7 @@ interface NavbarProps {
 }
 
 const navLinks = [
-  'about', 'skills', 'experience', 'projects', 'certificates', 'achievements', 'contact'
+  'about', 'skills', 'experience', 'projects', 'certificates', 'credly', 'achievements', 'contact'
 ] as const
 
 export default function Navbar({ dark, toggleTheme }: NavbarProps) {

@@ -1,102 +1,412 @@
 [
   {
     "id": 1,
-    "name": "AWS Cloud Practitioner",
-    "nameEn": "AWS Cloud Practitioner",
-    "institution": "Amazon Web Services",
+    "name": "AWS SimuLearn - Cloud Practitioner - Training Badge",
+    "nameEn": "AWS SimuLearn - Cloud Practitioner - Training Badge",
+    "institution": "Amazon Web Services (AWS)",
     "institutionKey": "AWS",
-    "date": "2023-06",
+    "date": "2026-07",
     "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=280&fit=crop&auto=format",
-    "url": "https://aws.amazon.com/certification"
+    "url": "https://www.credly.com/users/duvan-gamboa"
   },
   {
     "id": 2,
-    "name": "AWS Solutions Architect Associate",
-    "nameEn": "AWS Solutions Architect Associate",
-    "institution": "Amazon Web Services",
-    "institutionKey": "AWS",
-    "date": "2023-11",
-    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=280&fit=crop&auto=format",
-    "url": "https://aws.amazon.com/certification"
+    "name": "Ingeniería de Software y Arquitectura de Software",
+    "nameEn": "Software Engineering and Software Architecture",
+    "institution": "Udemy",
+    "institutionKey": "Udemy",
+    "date": "2026-07",
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
   },
   {
     "id": 3,
-    "name": "Docker & Kubernetes Fundamentals",
-    "nameEn": "Docker & Kubernetes Fundamentals",
-    "institution": "Udemy",
-    "institutionKey": "Udemy",
-    "date": "2023-03",
-    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335a?w=400&h=280&fit=crop&auto=format",
-    "url": "https://udemy.com"
+    "name": "Bootcamp Inteligencia Artificial",
+    "nameEn": "Artificial Intelligence Bootcamp",
+    "institution": "Ministerio de Ciencia, Tecnología e Innovación",
+    "institutionKey": "MinCiencias",
+    "date": "2025-10",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
   },
   {
     "id": 4,
-    "name": "Node.js - The Complete Guide",
-    "nameEn": "Node.js - The Complete Guide",
-    "institution": "Udemy",
-    "institutionKey": "Udemy",
-    "date": "2022-08",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=280&fit=crop&auto=format",
-    "url": "https://udemy.com"
+    "name": "HABILIDADES EN CIBERSEGURIDAD",
+    "nameEn": "Cybersecurity Skills",
+    "institution": "Universidad Nacional Abierta y a Distancia - UNAD Colombia",
+    "institutionKey": "UNAD",
+    "date": "2025-10",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
   },
   {
     "id": 5,
-    "name": "React - The Complete Guide 2024",
-    "nameEn": "React - The Complete Guide 2024",
-    "institution": "Udemy",
-    "institutionKey": "Udemy",
-    "date": "2024-01",
-    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=280&fit=crop&auto=format",
-    "url": "https://udemy.com"
+    "name": "Cyber Threat Management",
+    "nameEn": "Cyber Threat Management",
+    "institution": "Cisco",
+    "institutionKey": "Cisco",
+    "date": "2025-05",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
   },
   {
     "id": 6,
-    "name": "Escuela de Desarrollo Web",
-    "nameEn": "Web Development School",
-    "institution": "Platzi",
-    "institutionKey": "Platzi",
-    "date": "2023-07",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com"
+    "name": "Network Defense",
+    "nameEn": "Network Defense",
+    "institution": "Cisco",
+    "institutionKey": "Cisco",
+    "date": "2025-04",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
   },
   {
     "id": 7,
-    "name": "Curso de TypeScript",
-    "nameEn": "TypeScript Course",
-    "institution": "Platzi",
-    "institutionKey": "Platzi",
-    "date": "2023-02",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com"
+    "name": "Endpoint Security",
+    "nameEn": "Endpoint Security",
+    "institution": "Cisco",
+    "institutionKey": "Cisco",
+    "date": "2025-04",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
   },
   {
     "id": 8,
-    "name": "Curso de NestJS",
-    "nameEn": "NestJS Course",
-    "institution": "Platzi",
-    "institutionKey": "Platzi",
-    "date": "2023-09",
-    "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com"
+    "name": "Networking Devices and Initial Configuration",
+    "nameEn": "Networking Devices and Initial Configuration",
+    "institution": "Cisco",
+    "institutionKey": "Cisco",
+    "date": "2025-04",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
   },
   {
     "id": 9,
-    "name": "Google Analytics Certified",
-    "nameEn": "Google Analytics Certified",
-    "institution": "Google",
-    "institutionKey": "Google",
-    "date": "2022-05",
-    "image": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=400&h=280&fit=crop&auto=format",
-    "url": "https://skillshop.google.com"
+    "name": "Networking Basics",
+    "nameEn": "Networking Basics",
+    "institution": "Cisco",
+    "institutionKey": "Cisco",
+    "date": "2025-04",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
   },
   {
     "id": 10,
-    "name": "Laravel Certified Developer",
-    "nameEn": "Laravel Certified Developer",
-    "institution": "Laravel LLC",
-    "institutionKey": "Laravel",
-    "date": "2022-11",
+    "name": "Introduction to Cybersecurity",
+    "nameEn": "Introduction to Cybersecurity",
+    "institution": "Cisco",
+    "institutionKey": "Cisco",
+    "date": "2025-04",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
+  },
+  {
+    "id": 11,
+    "name": "Digital Awareness",
+    "nameEn": "Digital Awareness",
+    "institution": "Cisco",
+    "institutionKey": "Cisco",
+    "date": "2025-04",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.credly.com/users/duvan-gamboa"
+  },
+  {
+    "id": 12,
+    "name": "Curso de Angular: Creación de Aplicaciones Web",
+    "nameEn": "Angular Course: Web Application Development",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2025-03",
+    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 13,
+    "name": "Qué es la IA generativa",
+    "nameEn": "What Is Generative AI",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2024-07",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 14,
+    "name": "Fundamentos profesionales del desarrollo de software, por Microsoft y LinkedIn",
+    "nameEn": "Professional Foundations of Software Development by Microsoft and LinkedIn",
+    "institution": "Microsoft",
+    "institutionKey": "Microsoft",
+    "date": "2024-07",
+    "image": "https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 15,
+    "name": "Fundamentos de la programación: Más allá de lo básico",
+    "nameEn": "Programming Foundations: Beyond the Basics",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2024-07",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 16,
+    "name": "Introducción a las habilidades profesionales en el desarrollo de software",
+    "nameEn": "Introduction to Professional Skills in Software Development",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2024-07",
+    "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 17,
+    "name": "Fundamentos esenciales de la programación",
+    "nameEn": "Essential Programming Foundations",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2024-07",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 18,
+    "name": "Fundamentos de la gestión del tiempo",
+    "nameEn": "Time Management Foundations",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2024-07",
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 19,
+    "name": "Data Analysis with Python",
+    "nameEn": "Data Analysis with Python",
+    "institution": "Coursera",
+    "institutionKey": "Coursera",
+    "date": "2024-06",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.coursera.org"
+  },
+  {
+    "id": 20,
+    "name": "Curso de Docker",
+    "nameEn": "Docker Course",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-03",
+    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335a?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 21,
+    "name": "Curso Profesional de Arquitectura de Software",
+    "nameEn": "Professional Software Architecture Course",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-03",
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 22,
+    "name": "Fundamentos de Arquitectura de Software",
+    "nameEn": "Software Architecture Fundamentals",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-03",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 23,
+    "name": "Frontend con React.js",
+    "nameEn": "Frontend with React.js",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-02",
+    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 24,
+    "name": "Desarrollo Web Backend con PHP",
+    "nameEn": "Backend Web Development with PHP",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-02",
+    "image": "https://images.unsplash.com/photo-1537432376769-00aabc3f1b30?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 25,
+    "name": "Curso Básico de Manejo de Datos en Laravel con Eloquent ORM",
+    "nameEn": "Basic Data Handling in Laravel with Eloquent ORM",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2022-08",
     "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=280&fit=crop&auto=format",
-    "url": "https://laravel.com"
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 26,
+    "name": "Curso de Introducción a Laravel 9",
+    "nameEn": "Introduction to Laravel 9",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2022-08",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 27,
+    "name": "Curso Gratis de Programación Básica",
+    "nameEn": "Free Basic Programming Course",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2022-06",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 28,
+    "name": "Curso de API REST con Laravel",
+    "nameEn": "REST API with Laravel",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2022-06",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://platzi.com/p/duvan_gamboa/"
+  },
+  {
+    "id": 29,
+    "name": "DESARROLLO DE APPLETS/APLICACIONES CON USO DE BASE DE DATOS, REDES, SERVLETS Y MULTIMEDIA",
+    "nameEn": "Applet/Application Development Using Databases, Networks, Servlets and Multimedia",
+    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+    "institutionKey": "SENA",
+    "date": "2022-01",
+    "image": "https://images.unsplash.com/photo-1522252234503-e356532cafd5?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 30,
+    "name": "DESARROLLO DE APLICACIONES CON INTERFAZ GRAFICA, MANEJO DE EVENTOS, CLASES Y OBJETOS: JAVA",
+    "nameEn": "Application Development with Graphical Interface, Events, Classes and Objects: Java",
+    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+    "institutionKey": "SENA",
+    "date": "2022-01",
+    "image": "https://images.unsplash.com/photo-1522252234503-e356532cafd5?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 31,
+    "name": "DESARROLLO DE APLICACIONES CON MANEJO DE DATOS EN LA MEMORIA - JAVA",
+    "nameEn": "Application Development with In-Memory Data Handling - Java",
+    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+    "institutionKey": "SENA",
+    "date": "2022-01",
+    "image": "https://images.unsplash.com/photo-1522252234503-e356532cafd5?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 32,
+    "name": "DESARROLLO DE HABILIDADES DIGITALES PARA LA GESTION DE LA INFORMACION",
+    "nameEn": "Digital Skills Development for Information Management",
+    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+    "institutionKey": "SENA",
+    "date": "2021-12",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 33,
+    "name": "APRENDIZ DIGITAL",
+    "nameEn": "Digital Learner",
+    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+    "institutionKey": "SENA",
+    "date": "2021-12",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 34,
+    "name": "ANALISIS PARA EL DESARROLLO MOVIL CON APP INVENTOR",
+    "nameEn": "Analysis for Mobile Development with App Inventor",
+    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+    "institutionKey": "SENA",
+    "date": "2021-12",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 35,
+    "name": "REDES Y SEGURIDAD",
+    "nameEn": "Networks and Security",
+    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+    "institutionKey": "SENA",
+    "date": "2021-12",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 36,
+    "name": "VARIABLES Y ESTRUCTURAS DE CONTROL EN LA PROGRAMACION ORIENTADA A OBJETOS: JAVA",
+    "nameEn": "Variables and Control Structures in Object-Oriented Programming: Java",
+    "institution": "Servicio Nacional de Aprendizaje (SENA)",
+    "institutionKey": "SENA",
+    "date": "2021-12",
+    "image": "https://images.unsplash.com/photo-1522252234503-e356532cafd5?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 37,
+    "name": "Vue avanzado 1",
+    "nameEn": "Advanced Vue 1",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2022-05",
+    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 38,
+    "name": "Azure: Políticas para DevOps esencial",
+    "nameEn": "Azure: Essential Policies for DevOps",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2021-02",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 39,
+    "name": "GitHub para programadores",
+    "nameEn": "GitHub for Developers",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2021-02",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 40,
+    "name": "Integración HTML y CSS esencial",
+    "nameEn": "Essential HTML and CSS Integration",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2021-04",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
+  },
+  {
+    "id": 41,
+    "name": "HTML esencial",
+    "nameEn": "Essential HTML",
+    "institution": "LinkedIn",
+    "institutionKey": "LinkedIn",
+    "date": "2021-04",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=280&fit=crop&auto=format",
+    "url": "https://www.linkedin.com/in/duvan-gamboa-5193951b2/"
   }
 ]

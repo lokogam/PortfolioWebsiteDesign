@@ -173,7 +173,7 @@ export default function Hero({ profile }: HeroProps) {
           variants={itemVariants}
           className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight text-[var(--foreground)] mb-4"
         >
-          {profile?.name ?? 'Duvan Andrés Gambos'}
+          {profile?.name ?? 'Duvan Andrés Gamboa'}
         </motion.h1>
 
         {/* Typewriter */}
