@@ -1,7 +1,7 @@
 {
   "description": "Showcase your skills and projects with a modern, responsive portfolio designed for Full Stack developers, featuring smooth animations and easy content management.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
