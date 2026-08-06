@@ -18,10 +18,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     env:
       VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
       VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
       VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -30,17 +32,12 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: 22
-
-      - name: Clean build caches
-        run: |
-          rm -rf dist
-          rm -rf node_modules/.vite
-          npm cache clean --force
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build site
+      - name: Build
         run: npm run build
 
       - name: Setup Pages
@@ -49,15 +46,18 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: dist
+          path: ./dist
 
   deploy:
     needs: build
+
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v5
