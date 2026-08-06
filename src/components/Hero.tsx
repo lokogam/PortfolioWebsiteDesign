@@ -119,7 +119,7 @@ function Particles() {
 export default function Hero({ profile }: HeroProps) {
   const { t, i18n } = useTranslation()
   const typed = useTypewriter(profile?.titleVariants ?? ['Full Stack Developer'])
-  const profileImage = profileImageDataUri
+  const profileImage = profile?.avatar ? resolvePublicPath(profile.avatar) : profileImageDataUri
 
   const itemTransition: Transition = { duration: 0.6, ease: 'easeOut' as const }
   const containerVariants: Variants = {

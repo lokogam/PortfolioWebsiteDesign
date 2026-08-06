@@ -3,6 +3,7 @@ import SectionWrapper, { SectionHeader } from './SectionWrapper'
 import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi'
 import { motion } from 'framer-motion'
 import { profileImageDataUri } from '../lib/profileImageData'
+import { resolvePublicPath } from '../lib/publicPath'
 
 interface Profile {
   name: string
@@ -21,7 +22,7 @@ export default function About({ profile }: { profile: Profile | null }) {
   const { t, i18n } = useTranslation()
 
   const aboutText = i18n.language === 'es' ? profile?.about : profile?.aboutEn
-  const profileImage = profileImageDataUri
+  const profileImage = profile?.avatar ? resolvePublicPath(profile.avatar) : profileImageDataUri
 
   return (
     <SectionWrapper id="about" className="bg-[var(--secondary)]/30">
