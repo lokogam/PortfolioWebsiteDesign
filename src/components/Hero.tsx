@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { FiGithub, FiLinkedin, FiDownload, FiMail, FiChevronDown, FiAward } from 'react-icons/fi'
 import { SiPlatzi } from 'react-icons/si'
 import { profileImageDataUri } from '../lib/profileImageData'
+import { resolvePublicPath } from '../lib/publicPath'
 
 interface Profile {
   name: string
