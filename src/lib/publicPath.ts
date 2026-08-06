@@ -5,5 +5,5 @@ export function resolvePublicPath(path: string) {
 
   const normalized = path.replace(/^\/+/, '')
   const base = import.meta.env.BASE_URL || '/'
-  return new URL(normalized, base).toString()
+  return `${base.replace(/\/?$/, '/')}${normalized}`
 }
