@@ -19,18 +19,28 @@ export default function Contact({ profile }: { profile: Profile | null }) {
   const [sent, setSent] = useState(false)
   const [loading, setLoading] = useState(false)
   const [submitState, setSubmitState] = useState<'success' | 'error' | null>(null)
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined
+  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined
+  const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string | undefined
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setLoading(true)
     setSubmitState(null)
 
+    if (!serviceId || !templateId || !publicKey) {
+      console.error('EmailJS config missing. Check VITE_EMAILJS_* variables at build time.')
+      setSubmitState('error')
+      setLoading(false)
+      return
+    }
+
     try {
       await emailjs.send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        serviceId,
+        templateId,
         { ...form, subject: 'Portfolio contact' },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+        publicKey,
       )
 
       setSent(true)
