@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 
-# AI and search crawlers
 User-agent: GPTBot
 Allow: /
 
@@ -17,5 +16,5 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Host: https://lokogam.github.io
-Sitemap: https://lokogam.github.io/PortfolioWebsiteDesign/sitemap.xml
+Host: https://duvangamboa.dev
+Sitemap: https://duvangamboa.dev/sitemap.xml

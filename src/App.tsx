@@ -125,7 +125,7 @@ export default function App() {
       {!loading && (
         <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)]">
           <Navbar dark={dark} toggleTheme={toggle} />
-          <main>
+          <main className="pt-16">
             <Hero profile={profile} />
             <About profile={profile} />
             <Skills skills={skills} />

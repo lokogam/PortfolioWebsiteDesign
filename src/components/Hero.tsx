@@ -148,7 +148,7 @@ export default function Hero({ profile }: HeroProps) {
         className="relative z-10 max-w-5xl mx-auto px-4 text-center"
       >
         {/* Avatar */}
-        <motion.div variants={itemVariants} className="mb-8 flex justify-center">
+        <motion.div variants={itemVariants} className="mb-8 flex justify-center py-4">
           <div className="relative">
             <div className="w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden ring-4 ring-blue-500/30 ring-offset-4 ring-offset-[var(--background)]">
               <img

@@ -69,6 +69,15 @@ export default function Projects({ items }: { items: Project[] | null }) {
     document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
+  const getVisiblePages = () => {
+    if (totalPages <= 3) {
+      return Array.from({ length: totalPages }, (_, i) => i)
+    }
+
+    const start = Math.max(0, Math.min(page - 1, totalPages - 3))
+    return Array.from({ length: 3 }, (_, i) => start + i)
+  }
+
   return (
     <SectionWrapper id="projects" className="bg-[var(--secondary)]/30">
       <div className="max-w-7xl mx-auto">
@@ -175,7 +184,7 @@ export default function Projects({ items }: { items: Project[] | null }) {
 
         {/* Pagination */}
         {totalPages > 1 && (
-          <div className="flex items-center justify-center gap-3">
+          <div className="flex flex-wrap items-center justify-center gap-2">
             <button
               onClick={prevPage}
               className="w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all cursor-pointer bg-transparent"
@@ -184,19 +193,27 @@ export default function Projects({ items }: { items: Project[] | null }) {
               <FiChevronLeft size={16} />
             </button>
 
-            {Array.from({ length: totalPages }).map((_, i) => (
+            {page > 1 && totalPages > 3 && (
+              <span className="text-sm text-[var(--muted-foreground)] px-2">...</span>
+            )}
+
+            {getVisiblePages().map((pageIndex) => (
               <button
-                key={i}
-                onClick={() => goTo(i)}
+                key={pageIndex}
+                onClick={() => goTo(pageIndex)}
                 className={`w-9 h-9 rounded-lg text-sm font-semibold transition-all cursor-pointer border ${
-                  i === page
+                  pageIndex === page
                     ? 'bg-blue-600 text-white border-blue-600'
                     : 'bg-transparent border-[var(--border)] text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500'
                 }`}
               >
-                {i + 1}
+                {pageIndex + 1}
               </button>
             ))}
+
+            {page < totalPages - 2 && totalPages > 3 && (
+              <span className="text-sm text-[var(--muted-foreground)] px-2">...</span>
+            )}
 
             <button
               onClick={nextPage}
@@ -205,10 +222,6 @@ export default function Projects({ items }: { items: Project[] | null }) {
             >
               <FiChevronRight size={16} />
             </button>
-
-            <span className="text-xs text-[var(--muted-foreground)] ml-2">
-              {page * PAGE_SIZE + 1}–{Math.min((page + 1) * PAGE_SIZE, list.length)} de {list.length}
-            </span>
           </div>
         )}
       </div>

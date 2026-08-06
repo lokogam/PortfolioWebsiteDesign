@@ -69,7 +69,7 @@ export default function About({ profile }: { profile: Profile | null }) {
             <div className="space-y-3">
               {[
                 { icon: FiMapPin, label: profile?.location ?? 'Colombia' },
-                { icon: FiMail, label: profile?.email ?? 'duvan.gamboa.dev@gmail.com' },
+                { icon: FiMail, label: profile?.email ?? 'me@duvangamboa.dev' },
                 { icon: FiPhone, label: profile?.phone ?? '+57 315 633 4898' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-3 text-[var(--muted-foreground)] text-sm">
