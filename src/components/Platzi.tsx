@@ -20,6 +20,10 @@ const categoryColors: Record<string, string> = {
   Backend: 'bg-green-500/10 text-green-500 border-green-500/20',
   DevOps: 'bg-orange-500/10 text-orange-500 border-orange-500/20',
   Cloud: 'bg-blue-500/10 text-blue-500 border-blue-500/20',
+  Architecture: 'bg-violet-500/10 text-violet-500 border-violet-500/20',
+  Fundamentals: 'bg-slate-500/10 text-slate-400 border-slate-500/20',
+  Blockchain: 'bg-amber-500/10 text-amber-500 border-amber-500/20',
+  Ruta: 'bg-[#98ca3f]/15 text-[#98ca3f] border-[#98ca3f]/30',
 }
 
 export default function Platzi({ items }: { items: PlatziCourse[] | null }) {

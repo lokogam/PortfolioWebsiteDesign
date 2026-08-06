@@ -1,80 +1,1058 @@
 [
   {
     "id": 1,
-    "name": "E-Commerce Platform",
-    "description": "Plataforma de comercio electrónico completa con gestión de inventario, pasarela de pagos y panel de administración en tiempo real.",
-    "descriptionEn": "Complete e-commerce platform with inventory management, payment gateway, and real-time admin dashboard.",
-    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&auto=format",
-    "technologies": ["Laravel", "Vue.js", "MySQL", "Redis", "Docker"],
-    "github": "https://github.com/lokogam",
-    "demo": "https://demo.example.com",
-    "status": "Completado",
-    "statusEn": "Completed",
-    "date": "2023-08"
-  },
-  {
-    "id": 2,
-    "name": "Task Management API",
-    "description": "API RESTful para gestión de proyectos y tareas con autenticación JWT, roles y permisos, notificaciones en tiempo real con WebSockets.",
-    "descriptionEn": "RESTful API for project and task management with JWT authentication, roles and permissions, real-time notifications with WebSockets.",
-    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop&auto=format",
-    "technologies": ["NestJS", "TypeScript", "PostgreSQL", "Socket.io", "Docker"],
-    "github": "https://github.com/lokogam",
+    "name": "skills-copilot-codespaces-vscode",
+    "description": "Repositorio de GitHub en Sin lenguaje.",
+    "descriptionEn": "GitHub repository built with Sin lenguaje.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Sin lenguaje",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/skills-copilot-codespaces-vscode",
     "demo": "",
     "status": "En desarrollo",
     "statusEn": "In Development",
-    "date": "2024-02"
+    "date": "2026-08-04"
+  },
+  {
+    "id": 2,
+    "name": "Duvan-Gamboa",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/Duvan-Gamboa",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2026-07-09"
   },
   {
     "id": 3,
-    "name": "Analytics Dashboard",
-    "description": "Dashboard analítico con visualizaciones de datos en tiempo real, reportes exportables y sistema de alertas para monitoreo de KPIs empresariales.",
-    "descriptionEn": "Analytical dashboard with real-time data visualizations, exportable reports, and alert system for monitoring business KPIs.",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&auto=format",
-    "technologies": ["React", "TypeScript", "Node.js", "MongoDB", "AWS"],
-    "github": "https://github.com/lokogam",
-    "demo": "https://demo.example.com",
-    "status": "Completado",
-    "statusEn": "Completed",
-    "date": "2023-11"
+    "name": "stockflow-app",
+    "description": "Repositorio de GitHub en TypeScript.",
+    "descriptionEn": "GitHub repository built with TypeScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "TypeScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/stockflow-app",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2026-06-30"
   },
   {
     "id": 4,
-    "name": "Microservices Architecture",
-    "description": "Arquitectura de microservicios para plataforma fintech con Event Sourcing, CQRS y orquestación con Kubernetes en AWS EKS.",
-    "descriptionEn": "Microservices architecture for fintech platform with Event Sourcing, CQRS, and Kubernetes orchestration on AWS EKS.",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop&auto=format",
-    "technologies": ["Java", "Spring Boot", "Kafka", "PostgreSQL", "Kubernetes"],
-    "github": "https://github.com/lokogam",
+    "name": "stockflow-api",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/stockflow-api",
     "demo": "",
-    "status": "Completado",
-    "statusEn": "Completed",
-    "date": "2024-01"
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2026-06-27"
   },
   {
     "id": 5,
-    "name": "Portfolio Personal",
-    "description": "Portafolio web personal con modo oscuro, animaciones fluidas, internacionalización y carga de datos desde JSON.",
-    "descriptionEn": "Personal web portfolio with dark mode, fluid animations, internationalization, and data loading from JSON.",
-    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop&auto=format",
-    "technologies": ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
-    "github": "https://github.com/lokogam",
-    "demo": "https://lokogam.github.io",
-    "status": "Activo",
-    "statusEn": "Active",
-    "date": "2024-07"
+    "name": "Javeriana-Lead-Manager",
+    "description": "Repositorio de GitHub en TypeScript.",
+    "descriptionEn": "GitHub repository built with TypeScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "TypeScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/Javeriana-Lead-Manager",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2026-04-25"
   },
   {
     "id": 6,
-    "name": "Real-time Chat App",
-    "description": "Aplicación de chat en tiempo real con salas, mensajes privados, compartición de archivos y notificaciones push.",
-    "descriptionEn": "Real-time chat application with rooms, private messages, file sharing, and push notifications.",
-    "image": "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&h=400&fit=crop&auto=format",
-    "technologies": ["React", "Node.js", "Socket.io", "MongoDB", "Redis"],
-    "github": "https://github.com/lokogam",
+    "name": "BizData-PYME",
+    "description": "Repositorio de GitHub en TypeScript.",
+    "descriptionEn": "GitHub repository built with TypeScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "TypeScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/BizData-PYME",
     "demo": "",
-    "status": "Completado",
-    "statusEn": "Completed",
-    "date": "2023-05"
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2026-04-20"
+  },
+  {
+    "id": 7,
+    "name": "ml-fastvlm",
+    "description": "Repositorio de GitHub en Sin lenguaje.",
+    "descriptionEn": "GitHub repository built with Sin lenguaje.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Sin lenguaje",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/ml-fastvlm",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-05-05"
+  },
+  {
+    "id": 8,
+    "name": "geniai",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/geniai",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-11-20"
+  },
+  {
+    "id": 9,
+    "name": "Vault-System",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/Vault-System",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-11-02"
+  },
+  {
+    "id": 10,
+    "name": "protasker",
+    "description": "Repositorio de GitHub en Vue.",
+    "descriptionEn": "GitHub repository built with Vue.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Vue",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/protasker",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-10-26"
+  },
+  {
+    "id": 11,
+    "name": "syscolegios-examen25",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/syscolegios-examen25",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-10-16"
+  },
+  {
+    "id": 12,
+    "name": "acme-frontend",
+    "description": "Repositorio de GitHub en TypeScript.",
+    "descriptionEn": "GitHub repository built with TypeScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "TypeScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/acme-frontend",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-05-19"
+  },
+  {
+    "id": 13,
+    "name": "acme-backend",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/acme-backend",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-05-19"
+  },
+  {
+    "id": 14,
+    "name": "techquest-app",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/techquest-app",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-05-14"
+  },
+  {
+    "id": 15,
+    "name": "techquest-api",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/techquest-api",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-05-14"
+  },
+  {
+    "id": 16,
+    "name": "graphql-user-api",
+    "description": "Repositorio de GitHub en TypeScript.",
+    "descriptionEn": "GitHub repository built with TypeScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "TypeScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/graphql-user-api",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-05-12"
+  },
+  {
+    "id": 17,
+    "name": "Automobiles-Concurso",
+    "description": "Repositorio de GitHub en Blade.",
+    "descriptionEn": "GitHub repository built with Blade.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Blade",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/Automobiles-Concurso",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-05-01"
+  },
+  {
+    "id": 18,
+    "name": "wallet-app",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/wallet-app",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-04-30"
+  },
+  {
+    "id": 19,
+    "name": "gestion-cocktails",
+    "description": "Repositorio de GitHub en Blade.",
+    "descriptionEn": "GitHub repository built with Blade.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Blade",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/gestion-cocktails",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-04-29"
+  },
+  {
+    "id": 20,
+    "name": "api-empresas-contactos",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/api-empresas-contactos",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-04-24"
+  },
+  {
+    "id": 21,
+    "name": "BusinessHubAPI",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/BusinessHubAPI",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-04-23"
+  },
+  {
+    "id": 22,
+    "name": "backend-catalogoproductos",
+    "description": "Repositorio de GitHub en C#.",
+    "descriptionEn": "GitHub repository built with C#.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "C#",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/backend-catalogoproductos",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-04-16"
+  },
+  {
+    "id": 23,
+    "name": "frontend-catalogoproductos",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/frontend-catalogoproductos",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-04-16"
+  },
+  {
+    "id": 24,
+    "name": "backend-rickandmorty",
+    "description": "Repositorio de GitHub en Blade.",
+    "descriptionEn": "GitHub repository built with Blade.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Blade",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/backend-rickandmorty",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-04-12"
+  },
+  {
+    "id": 25,
+    "name": "frontend-rickandmorty",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/frontend-rickandmorty",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2025-04-12"
+  },
+  {
+    "id": 26,
+    "name": "frontend_igniweb",
+    "description": "Repositorio de GitHub en Vue.",
+    "descriptionEn": "GitHub repository built with Vue.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Vue",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/frontend_igniweb",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-11-08"
+  },
+  {
+    "id": 27,
+    "name": "backend_igniweb",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/backend_igniweb",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-11-08"
+  },
+  {
+    "id": 28,
+    "name": "IGNIWEB",
+    "description": "Repositorio de GitHub en Sin lenguaje.",
+    "descriptionEn": "GitHub repository built with Sin lenguaje.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Sin lenguaje",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/IGNIWEB",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-11-08"
+  },
+  {
+    "id": 29,
+    "name": "Konecta",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/Konecta",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-10-21"
+  },
+  {
+    "id": 30,
+    "name": "decameron-hotel-api",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/decameron-hotel-api",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-08-05"
+  },
+  {
+    "id": 31,
+    "name": "decameron-hotel-client",
+    "description": "Repositorio de GitHub en Vue.",
+    "descriptionEn": "GitHub repository built with Vue.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Vue",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/decameron-hotel-client",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-08-05"
+  },
+  {
+    "id": 32,
+    "name": "EcomCore-API",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/EcomCore-API",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-07-29"
+  },
+  {
+    "id": 33,
+    "name": "VueShop-UI",
+    "description": "Repositorio de GitHub en Vue.",
+    "descriptionEn": "GitHub repository built with Vue.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Vue",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/VueShop-UI",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-07-24"
+  },
+  {
+    "id": 34,
+    "name": "ecommerce-platform",
+    "description": "Repositorio de GitHub en Sin lenguaje.",
+    "descriptionEn": "GitHub repository built with Sin lenguaje.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Sin lenguaje",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/ecommerce-platform",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-07-24"
+  },
+  {
+    "id": 35,
+    "name": "VueShopUI",
+    "description": "Repositorio de GitHub en Sin lenguaje.",
+    "descriptionEn": "GitHub repository built with Sin lenguaje.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Sin lenguaje",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/VueShopUI",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-07-24"
+  },
+  {
+    "id": 36,
+    "name": "sisAlmacen",
+    "description": "Repositorio de GitHub en Java.",
+    "descriptionEn": "GitHub repository built with Java.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Java",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/sisAlmacen",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-07-23"
+  },
+  {
+    "id": 37,
+    "name": "DataSaverApp",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/DataSaverApp",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-07-23"
+  },
+  {
+    "id": 38,
+    "name": "AEFV",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/AEFV",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-07-06"
+  },
+  {
+    "id": 39,
+    "name": "bakend_AEFV",
+    "description": "Repositorio de GitHub en Sin lenguaje.",
+    "descriptionEn": "GitHub repository built with Sin lenguaje.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Sin lenguaje",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/bakend_AEFV",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-06-21"
+  },
+  {
+    "id": 40,
+    "name": "InnClod",
+    "description": "Repositorio de GitHub en Sin lenguaje.",
+    "descriptionEn": "GitHub repository built with Sin lenguaje.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Sin lenguaje",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/InnClod",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-05-21"
+  },
+  {
+    "id": 41,
+    "name": "integro_2024",
+    "description": "Repositorio de GitHub en Sin lenguaje.",
+    "descriptionEn": "GitHub repository built with Sin lenguaje.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Sin lenguaje",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/integro_2024",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2024-03-12"
+  },
+  {
+    "id": 42,
+    "name": "prueba_front",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/prueba_front",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2023-04-27"
+  },
+  {
+    "id": 43,
+    "name": "docker-laravel-api-next.js-breeze",
+    "description": "Repositorio de GitHub en Sin lenguaje.",
+    "descriptionEn": "GitHub repository built with Sin lenguaje.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Sin lenguaje",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/docker-laravel-api-next.js-breeze",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2023-03-07"
+  },
+  {
+    "id": 44,
+    "name": "laravel-tailwind",
+    "description": "Repositorio de GitHub en HTML.",
+    "descriptionEn": "GitHub repository built with HTML.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "HTML",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/laravel-tailwind",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-10-26"
+  },
+  {
+    "id": 45,
+    "name": "laravel-ORM",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/laravel-ORM",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-08-22"
+  },
+  {
+    "id": 46,
+    "name": "intervention-image",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/intervention-image",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-08-21"
+  },
+  {
+    "id": 47,
+    "name": "laravelIMG",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/laravelIMG",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-08-20"
+  },
+  {
+    "id": 48,
+    "name": "laravel-9",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/laravel-9",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-08-14"
+  },
+  {
+    "id": 49,
+    "name": "script",
+    "description": "Repositorio de GitHub en HTML.",
+    "descriptionEn": "GitHub repository built with HTML.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "HTML",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/script",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-07-14"
+  },
+  {
+    "id": 50,
+    "name": "bull_Shop",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/bull_Shop",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-07-10"
+  },
+  {
+    "id": 51,
+    "name": "programacionBasica",
+    "description": "Repositorio de GitHub en HTML.",
+    "descriptionEn": "GitHub repository built with HTML.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "HTML",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/programacionBasica",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-06-20"
+  },
+  {
+    "id": 52,
+    "name": "rollDice",
+    "description": "Repositorio de GitHub en Kotlin.",
+    "descriptionEn": "GitHub repository built with Kotlin.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Kotlin",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/rollDice",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-05-23"
+  },
+  {
+    "id": 53,
+    "name": "declaracion",
+    "description": "Repositorio de GitHub en CSS.",
+    "descriptionEn": "GitHub repository built with CSS.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "CSS",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/declaracion",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-05-07"
+  },
+  {
+    "id": 54,
+    "name": "sofkau",
+    "description": "Repositorio de GitHub en Vue.",
+    "descriptionEn": "GitHub repository built with Vue.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Vue",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/sofkau",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-04-30"
+  },
+  {
+    "id": 55,
+    "name": "Notas_Laravel_Vue",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/Notas_Laravel_Vue",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-03-25"
+  },
+  {
+    "id": 56,
+    "name": "Dugwuai_Vue_Laravel",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/Dugwuai_Vue_Laravel",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-03-31"
+  },
+  {
+    "id": 57,
+    "name": "plantillaADMINKIT",
+    "description": "Repositorio de GitHub en HTML.",
+    "descriptionEn": "GitHub repository built with HTML.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "HTML",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/plantillaADMINKIT",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-03-17"
+  },
+  {
+    "id": 58,
+    "name": "cursoLaravel_Inertia",
+    "description": "Repositorio de GitHub en Vue.",
+    "descriptionEn": "GitHub repository built with Vue.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Vue",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/cursoLaravel_Inertia",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-03-24"
+  },
+  {
+    "id": 59,
+    "name": "cursoJavaScrip",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/cursoJavaScrip",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-03-23"
+  },
+  {
+    "id": 60,
+    "name": "laravelVue2",
+    "description": "Repositorio de GitHub en Vue.",
+    "descriptionEn": "GitHub repository built with Vue.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "Vue",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/laravelVue2",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-02-17"
+  },
+  {
+    "id": 61,
+    "name": "bicidestrezas",
+    "description": "Repositorio de GitHub en CSS.",
+    "descriptionEn": "GitHub repository built with CSS.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "CSS",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/bicidestrezas",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-03-08"
+  },
+  {
+    "id": 62,
+    "name": "Dugwuai",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/Dugwuai",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-07-19"
+  },
+  {
+    "id": 63,
+    "name": "POS",
+    "description": "Repositorio de GitHub en PHP.",
+    "descriptionEn": "GitHub repository built with PHP.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "PHP",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/POS",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2022-03-31"
+  },
+  {
+    "id": 64,
+    "name": "portafolioduvan",
+    "description": "Repositorio de GitHub en HTML.",
+    "descriptionEn": "GitHub repository built with HTML.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "HTML",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/portafolioduvan",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2023-03-02"
+  },
+  {
+    "id": 65,
+    "name": "js.org",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/js.org",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2021-10-20"
+  },
+  {
+    "id": 66,
+    "name": "mvc_php",
+    "description": "Repositorio de GitHub en JavaScript.",
+    "descriptionEn": "GitHub repository built with JavaScript.",
+    "image": "/projects/placeholder.avif",
+    "technologies": [
+      "JavaScript",
+      "GitHub"
+    ],
+    "github": "https://github.com/lokogam/mvc_php",
+    "demo": "",
+    "status": "En desarrollo",
+    "statusEn": "In Development",
+    "date": "2021-08-12"
   }
 ]

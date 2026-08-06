@@ -1,73 +1,73 @@
 [
   {
     "id": 1,
-    "name": "Curso de Angular: Creación de Aplicaciones Web",
-    "nameEn": "Angular Course: Web Application Development",
+    "name": "Frontend con React.js",
+    "nameEn": "Frontend with React.js",
     "teacher": "Platzi",
-    "date": "2025-03-13",
-    "category": "Frontend",
-    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "date": "2023-02-19",
+    "category": "Ruta",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/ruta/7043-ruta/diploma/detalle/"
   },
   {
     "id": 2,
+    "name": "Desarrollo Web Backend con PHP",
+    "nameEn": "Backend Web Development with PHP",
+    "teacher": "Platzi",
+    "date": "2023-02-14",
+    "category": "Ruta",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/ruta/10-ruta/diploma/detalle/"
+  },
+  {
+    "id": 3,
     "name": "Curso de Docker",
     "nameEn": "Docker Course",
     "teacher": "Platzi",
     "date": "2023-03-19",
     "category": "DevOps",
-    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335a?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2066-course/diploma/detalle/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Curso Profesional de Arquitectura de Software",
     "nameEn": "Professional Software Architecture Course",
     "teacher": "Platzi",
     "date": "2023-03-19",
     "category": "Architecture",
-    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1248-course/diploma/detalle/"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Fundamentos de Arquitectura de Software (2018)",
     "nameEn": "Software Architecture Fundamentals (2018)",
     "teacher": "Platzi",
     "date": "2023-03-18",
     "category": "Architecture",
-    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1247-course/diploma/detalle/"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Curso Básico de Manejo de Datos en Laravel con Eloquent ORM",
     "nameEn": "Basic Data Handling in Laravel with Eloquent ORM",
     "teacher": "Platzi",
     "date": "2022-08-17",
     "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1920-course/diploma/detalle/"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Curso de Introducción a Laravel 9",
     "nameEn": "Introduction to Laravel 9",
     "teacher": "Platzi",
     "date": "2022-08-15",
     "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 7,
-    "name": "Curso Básico de Programación",
-    "nameEn": "Basic Programming Course",
-    "teacher": "Platzi",
-    "date": "2022-07-01",
-    "category": "Fundamentals",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/3039-course/diploma/detalle/"
   },
   {
     "id": 8,
@@ -76,187 +76,197 @@
     "teacher": "Platzi",
     "date": "2022-06-27",
     "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2185-course/diploma/detalle/"
   },
   {
     "id": 9,
-    "name": "Curso de Introducción a Solidity",
-    "nameEn": "Introduction to Solidity",
-    "teacher": "Platzi",
-    "date": "2022-05-13",
-    "category": "Blockchain",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 10,
-    "name": "Curso de Prework para Desarrollo de Aplicaciones Blockchain 2021",
-    "nameEn": "Prework for Blockchain Application Development 2021",
-    "teacher": "Platzi",
-    "date": "2022-05-12",
-    "category": "Blockchain",
-    "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 11,
-    "name": "Curso de Introducción a Celo con Solidity",
-    "nameEn": "Introduction to Celo with Solidity",
-    "teacher": "Platzi",
-    "date": "2022-05-11",
-    "category": "Blockchain",
-    "image": "https://images.unsplash.com/photo-1639762681299-5e3f3f0a9f22?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 12,
-    "name": "Curso Avanzado de PHP",
-    "nameEn": "Advanced PHP Course",
-    "teacher": "Platzi",
-    "date": "2022-03-20",
-    "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 13,
-    "name": "Curso Profesional de JavaScript",
-    "nameEn": "Professional JavaScript Course",
-    "teacher": "Platzi",
-    "date": "2022-03-20",
-    "category": "Frontend",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 14,
-    "name": "Curso Práctico de JavaScript",
-    "nameEn": "Practical JavaScript Course",
-    "teacher": "Platzi",
-    "date": "2022-03-20",
-    "category": "Frontend",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 15,
-    "name": "Curso de Introducción a Laravel 6",
-    "nameEn": "Introduction to Laravel 6",
-    "teacher": "Platzi",
-    "date": "2022-03-20",
-    "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 16,
-    "name": "Curso Avanzado de Laravel",
-    "nameEn": "Advanced Laravel Course",
-    "teacher": "Platzi",
-    "date": "2022-03-20",
-    "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 17,
-    "name": "Curso de Single Page Applications en Laravel con Inertia y Vue.js",
-    "nameEn": "Single Page Applications in Laravel with Inertia and Vue.js",
-    "teacher": "Platzi",
-    "date": "2022-03-20",
-    "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 18,
-    "name": "Curso Profesional de Vue.js 2",
-    "nameEn": "Professional Vue.js 2 Course",
-    "teacher": "Platzi",
-    "date": "2022-03-20",
-    "category": "Frontend",
-    "image": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 19,
-    "name": "Curso Avanzado de Vue.js 2",
-    "nameEn": "Advanced Vue.js 2 Course",
-    "teacher": "Platzi",
-    "date": "2022-03-20",
-    "category": "Frontend",
-    "image": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 20,
     "name": "Curso de PHP con Laravel",
     "nameEn": "PHP with Laravel Course",
     "teacher": "Platzi",
     "date": "2022-03-20",
     "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1467-course/diploma/detalle/"
   },
   {
-    "id": 21,
+    "id": 10,
     "name": "Curso de Introducción a Laravel 8",
     "nameEn": "Introduction to Laravel 8",
     "teacher": "Platzi",
     "date": "2022-03-20",
     "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2182-course/diploma/detalle/"
   },
   {
-    "id": 22,
+    "id": 11,
+    "name": "Curso de Introducción a Laravel 6",
+    "nameEn": "Introduction to Laravel 6",
+    "teacher": "Platzi",
+    "date": "2022-03-20",
+    "category": "Backend",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1842-course/diploma/detalle/"
+  },
+  {
+    "id": 12,
+    "name": "Curso Avanzado de Laravel",
+    "nameEn": "Advanced Laravel Course",
+    "teacher": "Platzi",
+    "date": "2022-03-20",
+    "category": "Backend",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1959-course/diploma/detalle/"
+  },
+  {
+    "id": 13,
+    "name": "Curso de Single Page Applications en Laravel con Inertia y Vue.js",
+    "nameEn": "Single Page Applications in Laravel with Inertia and Vue.js",
+    "teacher": "Platzi",
+    "date": "2022-03-20",
+    "category": "Backend",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2183-course/diploma/detalle/"
+  },
+  {
+    "id": 14,
+    "name": "Curso Profesional de JavaScript",
+    "nameEn": "Professional JavaScript Course",
+    "teacher": "Platzi",
+    "date": "2022-03-20",
+    "category": "Frontend",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1642-course/diploma/detalle/"
+  },
+  {
+    "id": 15,
+    "name": "Curso Práctico de JavaScript",
+    "nameEn": "Practical JavaScript Course",
+    "teacher": "Platzi",
+    "date": "2022-03-20",
+    "category": "Frontend",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2327-course/diploma/detalle/"
+  },
+  {
+    "id": 16,
+    "name": "Curso Profesional de Vue.js 2",
+    "nameEn": "Professional Vue.js 2 Course",
+    "teacher": "Platzi",
+    "date": "2022-03-20",
+    "category": "Frontend",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1145-course/diploma/detalle/"
+  },
+  {
+    "id": 17,
+    "name": "Curso Avanzado de Vue.js 2",
+    "nameEn": "Advanced Vue.js 2 Course",
+    "teacher": "Platzi",
+    "date": "2022-03-20",
+    "category": "Frontend",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1856-course/diploma/detalle/"
+  },
+  {
+    "id": 18,
+    "name": "Curso Básico de Programación",
+    "nameEn": "Basic Programming Course",
+    "teacher": "Platzi",
+    "date": "2022-07-01",
+    "category": "Fundamentals",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1050-course/diploma/detalle/"
+  },
+  {
+    "id": 19,
+    "name": "Curso Avanzado de PHP",
+    "nameEn": "Advanced PHP Course",
+    "teacher": "Platzi",
+    "date": "2022-03-20",
+    "category": "Backend",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1462-course/diploma/detalle/"
+  },
+  {
+    "id": 20,
     "name": "Curso Profesional de Git y GitHub",
     "nameEn": "Professional Git and GitHub Course",
     "teacher": "Platzi",
     "date": "2022-03-19",
     "category": "DevOps",
-    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2405-course/diploma/detalle/"
+  },
+  {
+    "id": 21,
+    "name": "Curso de Introducción a Solidity",
+    "nameEn": "Introduction to Solidity",
+    "teacher": "Platzi",
+    "date": "2022-05-13",
+    "category": "Blockchain",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2576-course/diploma/detalle/"
+  },
+  {
+    "id": 22,
+    "name": "Curso de Prework para Desarrollo de Aplicaciones Blockchain 2021",
+    "nameEn": "Prework for Blockchain Application Development 2021",
+    "teacher": "Platzi",
+    "date": "2022-05-12",
+    "category": "Blockchain",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2559-course/diploma/detalle/"
   },
   {
     "id": 23,
-    "name": "Curso de Introducción a Java",
-    "nameEn": "Introduction to Java",
+    "name": "Curso de Introducción a Celo con Solidity",
+    "nameEn": "Introduction to Celo with Solidity",
     "teacher": "Platzi",
-    "date": "2021-10-31",
-    "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1522252234503-e356532cafd5?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "date": "2022-05-11",
+    "category": "Blockchain",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2808-course/diploma/detalle/"
   },
   {
     "id": 24,
-    "name": "Curso de Java SE Orientado a Objetos",
-    "nameEn": "Object-Oriented Java SE Course",
+    "name": "Audiocurso de Historia de Ethereum y Smart Contract",
+    "nameEn": "Audio Course: History of Ethereum and Smart Contracts",
     "teacher": "Platzi",
-    "date": "2021-10-31",
-    "category": "Backend",
-    "image": "https://images.unsplash.com/photo-1522252234503-e356532cafd5?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "date": "2022-03-19",
+    "category": "Blockchain",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2579-course/diploma/detalle/"
   },
   {
     "id": 25,
-    "name": "Frontend con React.js",
-    "nameEn": "Frontend with React.js",
+    "name": "Curso de Economía Digital: Bitcoin y Criptomonedas",
+    "nameEn": "Digital Economy: Bitcoin and Cryptocurrencies",
     "teacher": "Platzi",
-    "date": "2023-02-19",
-    "category": "Ruta",
-    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "date": "2022-03-19",
+    "category": "Blockchain",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2452-course/diploma/detalle/"
   },
   {
     "id": 26,
-    "name": "Desarrollo Web Backend con PHP",
-    "nameEn": "Backend Web Development with PHP",
+    "name": "Curso de Bitcoin y Blockchain",
+    "nameEn": "Bitcoin and Blockchain Course",
     "teacher": "Platzi",
-    "date": "2023-02-14",
-    "category": "Ruta",
-    "image": "https://images.unsplash.com/photo-1537432376769-00aabc3f1b30?w=400&h=220&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "date": "2022-03-19",
+    "category": "Blockchain",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2451-course/diploma/detalle/"
+  },
+  {
+    "id": 27,
+    "name": "Audiocurso de Historia de Bitcoin y Criptomonedas",
+    "nameEn": "Audio Course: History of Bitcoin and Cryptocurrencies",
+    "teacher": "Platzi",
+    "date": "2022-03-19",
+    "category": "Blockchain",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2443-course/diploma/detalle/"
   }
 ]
