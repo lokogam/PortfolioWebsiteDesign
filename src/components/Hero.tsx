@@ -3,6 +3,7 @@ import { motion, type Variants, type Transition } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { FiGithub, FiLinkedin, FiDownload, FiMail, FiChevronDown, FiAward } from 'react-icons/fi'
 import { SiPlatzi } from 'react-icons/si'
+import profileImage from '../assets/profile.png'
 import { resolvePublicPath } from '../lib/publicPath'
 
 interface Profile {
@@ -149,13 +150,10 @@ export default function Hero({ profile }: HeroProps) {
         <motion.div variants={itemVariants} className="mb-8 flex justify-center">
           <div className="relative">
             <div className="w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden ring-4 ring-blue-500/30 ring-offset-4 ring-offset-[var(--background)]">
-              <div
-                className="w-full h-full bg-cover bg-center"
-                style={{
-                  backgroundImage: `url(${resolvePublicPath(profile?.avatar ?? 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format')})`,
-                }}
-                aria-label={profile?.name ?? 'Developer'}
-                role="img"
+              <img
+                src={profileImage}
+                alt={profile?.name ?? 'Developer'}
+                className="w-full h-full object-cover"
               />
             </div>
             <span className="absolute -bottom-1 -right-1 w-8 h-8 bg-green-500 rounded-full border-4 border-[var(--background)] flex items-center justify-center">

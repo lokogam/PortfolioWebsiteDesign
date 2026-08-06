@@ -4,6 +4,11 @@ import { motion, AnimatePresence } from 'framer-motion'
 import SectionWrapper, { SectionHeader } from './SectionWrapper'
 import { FiGithub, FiExternalLink, FiCalendar, FiChevronLeft, FiChevronRight } from 'react-icons/fi'
 import { resolvePublicPath } from '../lib/publicPath'
+import automobilesImage from '../assets/projects/automobiles-concurso1.avif'
+import cocktailImage from '../assets/projects/cocktail-app.avif'
+import companiesImage from '../assets/projects/companies-api.avif'
+import placeholderImage from '../assets/projects/placeholder.avif'
+import stripeImage from '../assets/projects/stripe-wallet.avif'
 
 interface Project {
   id: number
@@ -20,6 +25,14 @@ interface Project {
 }
 
 const PAGE_SIZE = 3
+
+const staticProjectImages: Record<string, string> = {
+  '/projects/automobiles-concurso1.avif': automobilesImage,
+  '/projects/cocktail-app.avif': cocktailImage,
+  '/projects/companies-api.avif': companiesImage,
+  '/projects/placeholder.avif': placeholderImage,
+  '/projects/stripe-wallet.avif': stripeImage,
+}
 
 const statusColors: Record<string, string> = {
   Completado: 'bg-green-500/10 text-green-500 border-green-500/20',
@@ -87,11 +100,11 @@ export default function Projects({ items }: { items: Project[] | null }) {
               >
                 {/* Image */}
                 <div className="relative h-44 overflow-hidden">
-                  <div
-                    className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                    style={{ backgroundImage: `url(${resolvePublicPath(project.image)})` }}
-                    role="img"
-                    aria-label={project.name}
+                  <img
+                    src={staticProjectImages[project.image] ?? resolvePublicPath(project.image)}
+                    alt={project.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <div className="absolute top-3 right-3">
