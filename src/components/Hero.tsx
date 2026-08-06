@@ -3,6 +3,7 @@ import { motion, type Variants, type Transition } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { FiGithub, FiLinkedin, FiDownload, FiMail, FiChevronDown, FiAward } from 'react-icons/fi'
 import { SiPlatzi } from 'react-icons/si'
+import { resolvePublicPath } from '../lib/publicPath'
 
 interface Profile {
   name: string
@@ -149,7 +150,7 @@ export default function Hero({ profile }: HeroProps) {
           <div className="relative">
             <div className="w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden ring-4 ring-blue-500/30 ring-offset-4 ring-offset-[var(--background)]">
               <img
-                src={profile?.avatar ?? 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format'}
+                src={resolvePublicPath(profile?.avatar ?? 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format')}
                 alt={profile?.name ?? 'Developer'}
                 className="w-full h-full object-cover"
               />
@@ -199,7 +200,7 @@ export default function Hero({ profile }: HeroProps) {
           className="flex flex-wrap items-center justify-center gap-3 mb-12"
         >
           <motion.a
-            href={profile?.cv ?? '#'}
+            href={profile?.cv ? resolvePublicPath(profile.cv) : '#'}
             download
             whileHover={{ scale: 1.04, y: -2 }}
             whileTap={{ scale: 0.97 }}

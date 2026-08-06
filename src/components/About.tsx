@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import SectionWrapper, { SectionHeader } from './SectionWrapper'
 import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi'
 import { motion } from 'framer-motion'
+import { resolvePublicPath } from '../lib/publicPath'
 
 interface Profile {
   name: string
@@ -41,7 +42,7 @@ export default function About({ profile }: { profile: Profile | null }) {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden">
                 <img
-                  src={profile?.avatar ?? 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format'}
+                  src={resolvePublicPath(profile?.avatar ?? 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format')}
                   alt={profile?.name}
                   className="w-full h-full object-cover"
                 />

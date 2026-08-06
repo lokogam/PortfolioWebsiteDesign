@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import SectionWrapper, { SectionHeader } from './SectionWrapper'
 import { FiGithub, FiExternalLink, FiCalendar, FiChevronLeft, FiChevronRight } from 'react-icons/fi'
+import { resolvePublicPath } from '../lib/publicPath'
 
 interface Project {
   id: number
@@ -87,7 +88,7 @@ export default function Projects({ items }: { items: Project[] | null }) {
                 {/* Image */}
                 <div className="relative h-44 overflow-hidden">
                   <img
-                    src={project.image}
+                    src={resolvePublicPath(project.image)}
                     alt={project.name}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
