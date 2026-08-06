@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next'
 import { FiGithub, FiLinkedin, FiDownload, FiMail, FiChevronDown, FiAward } from 'react-icons/fi'
 import { SiPlatzi } from 'react-icons/si'
 import { profileImageDataUri } from '../lib/profileImageData'
-import { resolvePublicPath } from '../lib/publicPath'
 
 interface Profile {
   name: string
@@ -119,7 +118,7 @@ function Particles() {
 export default function Hero({ profile }: HeroProps) {
   const { t, i18n } = useTranslation()
   const typed = useTypewriter(profile?.titleVariants ?? ['Full Stack Developer'])
-  const profileImage = profile?.avatar ? resolvePublicPath(profile.avatar) : profileImageDataUri
+  const profileImage = profileImageDataUri
 
   const itemTransition: Transition = { duration: 0.6, ease: 'easeOut' as const }
   const containerVariants: Variants = {
