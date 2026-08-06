@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# AI and search crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Host: https://lokogam.github.io
+Sitemap: https://lokogam.github.io/PortfolioWebsiteDesign/sitemap.xml

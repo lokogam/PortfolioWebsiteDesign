@@ -38,6 +38,18 @@ export default function Projects({ items }: { items: Project[] | null }) {
   const totalPages = Math.ceil(list.length / PAGE_SIZE)
   const paged = list.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE)
 
+  const prevPage = () => {
+    if (totalPages <= 1) return
+    setPage((p) => (p === 0 ? totalPages - 1 : p - 1))
+    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  const nextPage = () => {
+    if (totalPages <= 1) return
+    setPage((p) => (p === totalPages - 1 ? 0 : p + 1))
+    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
   const goTo = (p: number) => {
     setPage(p)
     document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -151,9 +163,8 @@ export default function Projects({ items }: { items: Project[] | null }) {
         {totalPages > 1 && (
           <div className="flex items-center justify-center gap-3">
             <button
-              onClick={() => goTo(page - 1)}
-              disabled={page === 0}
-              className="w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 disabled:opacity-30 disabled:cursor-not-allowed transition-all cursor-pointer bg-transparent"
+              onClick={prevPage}
+              className="w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all cursor-pointer bg-transparent"
               aria-label="Anterior"
             >
               <FiChevronLeft size={16} />
@@ -174,9 +185,8 @@ export default function Projects({ items }: { items: Project[] | null }) {
             ))}
 
             <button
-              onClick={() => goTo(page + 1)}
-              disabled={page === totalPages - 1}
-              className="w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 disabled:opacity-30 disabled:cursor-not-allowed transition-all cursor-pointer bg-transparent"
+              onClick={nextPage}
+              className="w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all cursor-pointer bg-transparent"
               aria-label="Siguiente"
             >
               <FiChevronRight size={16} />

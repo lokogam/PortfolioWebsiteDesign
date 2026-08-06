@@ -111,13 +111,13 @@
   },
   {
     "id": 12,
-    "name": "Curso de Angular: Creación de Aplicaciones Web",
-    "nameEn": "Angular Course: Web Application Development",
+    "name": "Frontend con React.js",
+    "nameEn": "Frontend with React.js",
     "institution": "Platzi",
     "institutionKey": "Platzi",
-    "date": "2025-03",
-    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "date": "2023-02",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/ruta/7043-ruta/diploma/detalle/"
   },
   {
     "id": 13,
@@ -191,93 +191,93 @@
   },
   {
     "id": 20,
-    "name": "Curso de Docker",
-    "nameEn": "Docker Course",
-    "institution": "Platzi",
-    "institutionKey": "Platzi",
-    "date": "2023-03",
-    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335a?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 21,
-    "name": "Curso Profesional de Arquitectura de Software",
-    "nameEn": "Professional Software Architecture Course",
-    "institution": "Platzi",
-    "institutionKey": "Platzi",
-    "date": "2023-03",
-    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 22,
-    "name": "Fundamentos de Arquitectura de Software",
-    "nameEn": "Software Architecture Fundamentals",
-    "institution": "Platzi",
-    "institutionKey": "Platzi",
-    "date": "2023-03",
-    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 23,
-    "name": "Frontend con React.js",
-    "nameEn": "Frontend with React.js",
-    "institution": "Platzi",
-    "institutionKey": "Platzi",
-    "date": "2023-02",
-    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 24,
     "name": "Desarrollo Web Backend con PHP",
     "nameEn": "Backend Web Development with PHP",
     "institution": "Platzi",
     "institutionKey": "Platzi",
     "date": "2023-02",
-    "image": "https://images.unsplash.com/photo-1537432376769-00aabc3f1b30?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/ruta/10-ruta/diploma/detalle/"
   },
   {
-    "id": 25,
+    "id": 21,
+    "name": "Curso de Docker",
+    "nameEn": "Docker Course",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-03",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2066-course/diploma/detalle/"
+  },
+  {
+    "id": 22,
+    "name": "Curso Profesional de Arquitectura de Software",
+    "nameEn": "Professional Software Architecture Course",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-03",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1248-course/diploma/detalle/"
+  },
+  {
+    "id": 23,
+    "name": "Fundamentos de Arquitectura de Software (2018)",
+    "nameEn": "Software Architecture Fundamentals (2018)",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2023-03",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1247-course/diploma/detalle/"
+  },
+  {
+    "id": 24,
     "name": "Curso Básico de Manejo de Datos en Laravel con Eloquent ORM",
     "nameEn": "Basic Data Handling in Laravel with Eloquent ORM",
     "institution": "Platzi",
     "institutionKey": "Platzi",
     "date": "2022-08",
-    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1920-course/diploma/detalle/"
   },
   {
-    "id": 26,
+    "id": 25,
     "name": "Curso de Introducción a Laravel 9",
     "nameEn": "Introduction to Laravel 9",
     "institution": "Platzi",
     "institutionKey": "Platzi",
     "date": "2022-08",
-    "image": "https://images.unsplash.com/photo-1587620962725-abab19836e2c?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/3039-course/diploma/detalle/"
+  },
+  {
+    "id": 26,
+    "name": "Curso Básico de Programación",
+    "nameEn": "Basic Programming Course",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2022-07",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1050-course/diploma/detalle/"
   },
   {
     "id": 27,
-    "name": "Curso Gratis de Programación Básica",
-    "nameEn": "Free Basic Programming Course",
-    "institution": "Platzi",
-    "institutionKey": "Platzi",
-    "date": "2022-06",
-    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
-  },
-  {
-    "id": 28,
     "name": "Curso de API REST con Laravel",
     "nameEn": "REST API with Laravel",
     "institution": "Platzi",
     "institutionKey": "Platzi",
     "date": "2022-06",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=280&fit=crop&auto=format",
-    "url": "https://platzi.com/p/duvan_gamboa/"
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/2185-course/diploma/detalle/"
+  },
+  {
+    "id": 28,
+    "name": "Curso Avanzado de PHP",
+    "nameEn": "Advanced PHP Course",
+    "institution": "Platzi",
+    "institutionKey": "Platzi",
+    "date": "2022-03",
+    "image": "https://static.platzi.com/media/uploads/icon_77b5127626.png",
+    "url": "https://platzi.com/p/duvan_gamboa/curso/1462-course/diploma/detalle/"
   },
   {
     "id": 29,

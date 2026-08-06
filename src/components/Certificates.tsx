@@ -153,11 +153,11 @@ export default function Certificates({ items }: { items: Certificate[] | null })
                       className="flex gap-4 p-4 rounded-xl border border-[var(--border)] bg-[var(--background)] hover:border-blue-500/40 transition-colors group"
                     >
                       {/* Thumbnail */}
-                      <div className="w-16 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-[var(--secondary)]">
+                      <div className="h-12 rounded-lg overflow-hidden flex-shrink-0 bg-[var(--secondary)]">
                         <img
                           src={cert.image}
                           alt={cert.name}
-                          className="w-full h-full object-cover"
+                          className="h-full object-cover"
                           loading="lazy"
                         />
                       </div>
