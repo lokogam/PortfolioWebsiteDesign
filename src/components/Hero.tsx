@@ -3,8 +3,7 @@ import { motion, type Variants, type Transition } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { FiGithub, FiLinkedin, FiDownload, FiMail, FiChevronDown, FiAward } from 'react-icons/fi'
 import { SiPlatzi } from 'react-icons/si'
-import profileImage from '../assets/profile.png'
-import { resolvePublicPath } from '../lib/publicPath'
+import { profileImageDataUri } from '../lib/profileImageData'
 
 interface Profile {
   name: string
@@ -119,6 +118,7 @@ function Particles() {
 export default function Hero({ profile }: HeroProps) {
   const { t, i18n } = useTranslation()
   const typed = useTypewriter(profile?.titleVariants ?? ['Full Stack Developer'])
+  const profileImage = profileImageDataUri
 
   const itemTransition: Transition = { duration: 0.6, ease: 'easeOut' as const }
   const containerVariants: Variants = {
