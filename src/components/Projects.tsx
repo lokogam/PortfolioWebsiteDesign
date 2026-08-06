@@ -87,11 +87,11 @@ export default function Projects({ items }: { items: Project[] | null }) {
               >
                 {/* Image */}
                 <div className="relative h-44 overflow-hidden">
-                  <img
-                    src={resolvePublicPath(project.image)}
-                    alt={project.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy"
+                  <div
+                    className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                    style={{ backgroundImage: `url(${resolvePublicPath(project.image)})` }}
+                    role="img"
+                    aria-label={project.name}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <div className="absolute top-3 right-3">

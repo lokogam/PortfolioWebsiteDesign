@@ -41,10 +41,13 @@ export default function About({ profile }: { profile: Profile | null }) {
           >
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden">
-                <img
-                  src={resolvePublicPath(profile?.avatar ?? 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format')}
-                  alt={profile?.name}
-                  className="w-full h-full object-cover"
+                <div
+                  className="w-full h-full bg-cover bg-center"
+                  style={{
+                    backgroundImage: `url(${resolvePublicPath(profile?.avatar ?? 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format')})`,
+                  }}
+                  aria-label={profile?.name ?? 'Developer'}
+                  role="img"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-full h-full rounded-2xl border-2 border-blue-500/30 pointer-events-none" />
