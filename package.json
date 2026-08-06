@@ -9,7 +9,7 @@
     "build:gh": "vite build --base=/PortfolioWebsiteDesign/",
     "preview": "vite preview",
     "format": "oxfmt",
-    "deploy": "npm run build:gh && npx gh-pages -d dist -b gh-pages -m \"deploy: github pages\""
+    "deploy": "npm run build && npx gh-pages -d dist -b gh-pages -m \"deploy: github pages\""
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
