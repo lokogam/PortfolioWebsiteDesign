@@ -35,11 +35,14 @@ export default function Navbar({ dark, toggleTheme }: NavbarProps) {
 
   const scrollTo = (id: string) => {
     setMobileOpen(false)
-    const element = document.getElementById(id)
+    const element = document.querySelector<HTMLElement>(`#${id}`)
     if (!element) return
     const offset = 72
-    const top = element.getBoundingClientRect().top + window.scrollY - offset
-    window.scrollTo({ top, behavior: 'smooth' })
+    const top = element.getBoundingClientRect().top + window.pageYOffset - offset
+    requestAnimationFrame(() => {
+      window.scrollTo({ top, behavior: 'smooth' })
+    })
+    setActive(id)
   }
 
   const toggleLang = () => {
@@ -57,20 +60,21 @@ export default function Navbar({ dark, toggleTheme }: NavbarProps) {
           : 'bg-[var(--background)]/80'
       }`}
     >
-      <div className="relative max-w-7xl mx-auto w-full px-2 sm:px-3 md:px-4 lg:px-8 h-16 flex items-center justify-between gap-1 sm:gap-2 overflow-hidden">
+      <div className="relative max-w-7xl mx-auto w-full px-3 sm:px-4 lg:px-8 h-16 flex items-center justify-between gap-2">
         {/* Logo */}
         <motion.button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           whileHover={{ scale: 1.05 }}
-          className="font-bold text-lg sm:text-xl tracking-tight gradient-text cursor-pointer bg-transparent border-none flex-shrink-0"
+          className="font-bold text-xl tracking-tight gradient-text cursor-pointer bg-transparent border-none flex-shrink-0"
         >
           {'<DG />'}
         </motion.button>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-1 overflow-x-auto">
+        <div className="hidden md:flex items-center gap-1">
           {navLinks.map((link) => (
             <button
+              type="button"
               key={link}
               onClick={() => scrollTo(link)}
               className={`px-3 py-1.5 text-sm rounded-lg transition-all duration-200 cursor-pointer bg-transparent border-none font-medium ${
@@ -85,23 +89,23 @@ export default function Navbar({ dark, toggleTheme }: NavbarProps) {
         </div>
 
         {/* Controls */}
-        <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
+        <div className="flex items-center gap-1 sm:gap-2 min-w-0">
           <button
             onClick={toggleLang}
-            className="px-1.5 sm:px-2 py-1 text-[10px] sm:text-xs font-semibold rounded-lg border border-[var(--border)] text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all duration-200 cursor-pointer bg-transparent uppercase tracking-wider"
+            className="px-2 py-1 text-[10px] sm:text-xs font-semibold rounded-lg border border-[var(--border)] text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all duration-200 cursor-pointer bg-transparent uppercase tracking-wider"
           >
             {i18n.language === 'es' ? 'EN' : 'ES'}
           </button>
           <button
             onClick={toggleTheme}
-            className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg border border-[var(--border)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all duration-200 cursor-pointer bg-transparent"
+            className="w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all duration-200 cursor-pointer bg-transparent"
             aria-label="Toggle theme"
           >
             {dark ? <FiSun size={16} /> : <FiMoon size={16} />}
           </button>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden w-8 h-8 sm:w-9 sm:h-9 rounded-lg border border-[var(--border)] flex items-center justify-center cursor-pointer bg-transparent text-[var(--foreground)]"
+            className="md:hidden w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center cursor-pointer bg-transparent text-[var(--foreground)]"
             aria-label="Toggle menu"
           >
             {mobileOpen ? <FiX size={16} /> : <FiMenu size={16} />}
@@ -121,6 +125,7 @@ export default function Navbar({ dark, toggleTheme }: NavbarProps) {
           >
             {navLinks.map((link) => (
               <button
+                type="button"
                 key={link}
                 onClick={() => scrollTo(link)}
                 className="block w-full text-left px-3 py-2.5 text-sm rounded-lg text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:bg-[var(--secondary)] transition-colors duration-200 cursor-pointer bg-transparent border-none"

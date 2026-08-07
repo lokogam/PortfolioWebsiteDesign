@@ -23,7 +23,7 @@ export default function Credly({ items }: { items: Badge[] | null }) {
   const dragStart = useRef(0)
 
   // Number of valid start positions in the track
-  const maxIndex = Math.max(0, list.length - VISIBLE)
+  const maxIndex = Math.max(0, list.length - 1)
 
   const prev = () => {
     if (maxIndex === 0) return
@@ -59,7 +59,7 @@ export default function Credly({ items }: { items: Badge[] | null }) {
           {/* Prev button */}
           <button
             onClick={prev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-9 h-9 rounded-full border border-[var(--border)] bg-[var(--card)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all cursor-pointer shadow-md"
+            className="absolute left-2 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full border border-[var(--border)] bg-[var(--card)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all cursor-pointer shadow-md sm:left-0 sm:-translate-x-4"
             aria-label="Anterior"
           >
             <FiChevronLeft size={16} />
@@ -67,7 +67,7 @@ export default function Credly({ items }: { items: Badge[] | null }) {
 
           {/* Track */}
           <div
-            className="overflow-hidden mx-6"
+            className="overflow-hidden mx-2 sm:mx-6"
             onMouseDown={(e) => onDragStart(e.clientX)}
             onMouseUp={(e) => onDragEnd(e.clientX)}
             onTouchStart={(e) => onDragStart(e.touches[0].clientX)}
@@ -75,22 +75,22 @@ export default function Credly({ items }: { items: Badge[] | null }) {
           >
             <motion.div
               className="flex gap-4"
-              animate={{ x: `calc(-${index} * (100% / ${VISIBLE} + 16px / ${VISIBLE}))` }}
+              animate={{ x: `calc(-${index} * (min(260px, 100%) + 16px))` }}
               transition={{ type: 'spring', stiffness: 300, damping: 30 }}
               style={{ cursor: dragging ? 'grabbing' : 'grab' }}
             >
               {list.map((badge) => (
                 <div
                   key={badge.id}
-                  className="flex-shrink-0 h-full"
-                  style={{ width: `calc((100% - ${(VISIBLE - 1) * 16}px) / ${VISIBLE})` }}
+                  className="flex-shrink-0 h-auto snap-start"
+                  style={{ width: 'min(260px, 100%)' }}
                 >
                   <motion.a
                     href={badge.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ y: -6 }}
-                    className="glass rounded-2xl border border-[var(--border)] p-5 h-[250px] flex flex-col items-center text-center gap-3 group block select-none"
+                    className="glass rounded-2xl border border-[var(--border)] p-5 h-auto sm:h-[250px] flex flex-col items-center text-center gap-3 group block select-none"
                     draggable={false}
                   >
                     <div className="w-20 h-20 rounded-full overflow-hidden ring-2 ring-blue-500/20 group-hover:ring-blue-500/60 transition-all duration-300">
@@ -102,12 +102,14 @@ export default function Credly({ items }: { items: Badge[] | null }) {
                         draggable={false}
                       />
                     </div>
-                    <div className="min-h-[64px]">
+                    <div className="min-h-[64px] w-full">
                       <p className="font-semibold text-[var(--foreground)] text-xs leading-tight mb-0.5 line-clamp-2">
                         {badge.name}
                       </p>
-                      <p className="text-blue-500 text-xs">{badge.institution}</p>
-                      <p className="text-[var(--muted-foreground)] text-xs">{badge.date}</p>
+                      <div className="hidden sm:block">
+                        <p className="text-blue-500 text-xs">{badge.institution}</p>
+                        <p className="text-[var(--muted-foreground)] text-xs">{badge.date}</p>
+                      </div>
                     </div>
                     <span className="mt-auto flex items-center gap-1 text-xs text-[var(--muted-foreground)] group-hover:text-blue-500 transition-colors">
                       <FiExternalLink size={11} />
@@ -122,7 +124,7 @@ export default function Credly({ items }: { items: Badge[] | null }) {
           {/* Next button */}
           <button
             onClick={next}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-9 h-9 rounded-full border border-[var(--border)] bg-[var(--card)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all cursor-pointer shadow-md"
+            className="absolute right-2 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full border border-[var(--border)] bg-[var(--card)] flex items-center justify-center text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all cursor-pointer shadow-md sm:right-0 sm:translate-x-4"
             aria-label="Siguiente"
           >
             <FiChevronRight size={16} />
