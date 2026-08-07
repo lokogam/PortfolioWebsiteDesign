@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoja de Vida - Duvan Andres Gamboa Guiza</title>
+  <style>
+    @media print {
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 7px !important;
+        line-height: 1.15;
+      }
+
+      .container {
+        margin: 0 !important;
+        padding: 8px !important;
+        max-width: 100% !important;
+        border: 0;
+        box-shadow: none;
+      }
+
+      .section {
+        margin-bottom: 8px !important;
+      }
+
+      .item,
+      .compact-list li,
+      .experience-item {
+        margin-bottom: 3px !important;
+      }
+
+      .no-imprimir {
+        display: none !important;
+      }
+
+      @page {
+        size: A4;
+        margin: 0;
+      }
+    }
+
+    :root {
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #dbe3ef;
+      --panel: #f8fafc;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 18px;
+      background: #f3f4f6;
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      padding: 18px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 12px;
+      margin-bottom: 12px;
+    }
+
+    .identity {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .avatar {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 21px;
+    }
+
+    .role {
+      margin: 2px 0 0;
+      color: var(--accent);
+      font-size: 14px;
+    }
+
+    .contact {
+      text-align: right;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .contact div {
+      margin-bottom: 2px;
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .btn-pdf {
+      margin-top: 8px;
+      padding: 7px 14px;
+      background: var(--accent);
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .summary {
+      background: var(--panel);
+      border-left: 3px solid var(--accent);
+      padding: 10px 12px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1.45fr 1fr;
+      gap: 14px;
+    }
+
+    .section {
+      margin-bottom: 12px;
+    }
+
+    .section h2 {
+      margin: 0 0 8px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      border-bottom: 1px solid var(--accent-soft);
+      padding-bottom: 4px;
+    }
+
+    .experience-item {
+      background: var(--panel);
+      border-left: 3px solid var(--accent);
+      border-radius: 4px;
+      padding: 7px 10px;
+      margin-bottom: 7px;
+      font-size: 11px;
+      line-height: 1.3;
+    }
+
+    .experience-item strong {
+      display: block;
+      color: var(--text);
+      margin-bottom: 2px;
+      font-size: 11.5px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 10px;
+      margin-bottom: 3px;
+    }
+
+    .compact-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .compact-list li,
+    .item {
+      background: var(--panel);
+      border-radius: 4px;
+      padding: 6px 8px;
+      margin-bottom: 6px;
+      font-size: 11px;
+      line-height: 1.3;
+    }
+
+    .skill-block {
+      background: var(--panel);
+      border-radius: 4px;
+      padding: 7px 8px;
+      margin-bottom: 6px;
+      font-size: 11px;
+      line-height: 1.3;
+    }
+
+    .skill-block strong {
+      color: var(--accent);
+    }
+
+    .cert-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+
+    .cert-card {
+      background: var(--panel);
+      border-radius: 4px;
+      padding: 6px 8px;
+      font-size: 10.5px;
+      line-height: 1.25;
+    }
+
+    .cert-card strong {
+      color: var(--accent);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    @media (max-width: 760px) {
+      .header,
+      .layout {
+        grid-template-columns: 1fr;
+        display: grid;
+      }
+
+      .contact {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="identity">
+        <div class="avatar">DG</div>
+        <div>
+          <h1>Duvan Andres Gamboa Guiza</h1>
+          <p class="role">Desarrollador Full Stack</p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div><strong>Tel:</strong> +57 3156334898</div>
+        <div><strong>Email:</strong> <a href="mailto:me@duvangamboa.dev">me@duvangamboa.dev</a></div>
+        <div><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/duvan-gamboa-5193951b2">Duvan Gamboa</a></div>
+        <div><strong>Portafolio:</strong> <a href="https://duvangamboa.dev">duvangamboa.dev</a></div>
+        <div><strong>Ubicacion:</strong> Colombia (Velez, Santander)</div>
+        <button class="btn-pdf no-imprimir" onclick="window.print()">Guardar como PDF</button>
+      </div>
+    </div>
+
+    <div class="summary">
+      Tecnologo en Analisis y Desarrollo de Sistemas de Informacion con mas de 3 anos de experiencia desarrollando soluciones web y moviles. Experto en PHP, Laravel, JavaScript, React, Vue.js y MySQL. He liderado proyectos que optimizan procesos operativos mediante APIs RESTful y arquitecturas modernas. Busco impactar con soluciones backend y cloud computing en equipos agiles y multidisciplinarios. Actualmente resido en Velez, Santander, y tengo total disponibilidad para cambiar de residencia. He trabajado mas de 6 meses en Bogota y mas de 1 ano en Medellin, ademas de haber trabajado desde casa el ultimo ano. Estoy dispuesto a trabajar como freelancer, en modalidad remota, hibrida o presencial. Me encanta conocer lugares nuevos y explorar nuevas oportunidades y experiencias.
+    </div>
+
+    <div class="layout">
+      <div>
+        <div class="section">
+          <h2>Experiencia</h2>
+
+          <div class="experience-item">
+            <strong>Desarrollador Full Stack — EduLabs</strong>
+            <div class="meta">Nov. 2025 - May. 2026 | Cajica, Cundinamarca · Remoto</div>
+            <ul>
+              <li>Participe en el desarrollo de soluciones tecnologicas para el sector educativo enfocadas en plataformas basadas en Moodle.</li>
+              <li>Desarrollo, mantenimiento y actualizacion de plugins personalizados en Moodle utilizando PHP.</li>
+              <li>Gestion y optimizacion de bases de datos MySQL y PostgreSQL para mejorar el rendimiento de la plataforma.</li>
+              <li>Implementacion de nuevas funcionalidades y mejoras evolutivas en sistemas educativos existentes.</li>
+              <li>Participacion activa en la planificacion, estimacion y desarrollo de tareas bajo metodologia agil (Scrum).</li>
+              <li>Colaboracion en un equipo de 6 desarrolladores trabajando de forma remota y coordinada.</li>
+              <li>Interaccion directa con clientes para levantamiento de requerimientos y validacion de soluciones tecnicas.</li>
+              <li>Integracion y participacion en un proyecto enfocado en soluciones educativas apoyadas con inteligencia artificial.</li>
+              <li>Resolucion de incidencias y soporte tecnico en entornos productivos.</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <strong>Desarrollador Web — Involve, LLC</strong>
+            <div class="meta">Ago. 2025 - Oct. 2025 | Argentina · Contractor Remoto</div>
+            <ul>
+              <li>Preste servicios de desarrollo web bajo la modalidad contractor, participando en la construccion, mantenimiento y soporte de sistemas internos y proyectos de clientes.</li>
+              <li>Desarrollo de modulos administrativos y conexion de APIs RESTful utilizando Laravel y Node.js.</li>
+              <li>Integracion de sistemas y optimizacion de funcionalidades existentes para mejorar el rendimiento y escalabilidad.</li>
+              <li>Implementacion de validaciones, manejo de errores y autenticacion con JWT.</li>
+              <li>Coordinacion con equipos multidisciplinarios mediante Slack y gestion de tareas en Jira.</li>
+              <li>Refactorizacion de codigo y estandarizacion de controladores y servicios.</li>
+              <li>Apoyo en procesos de soporte tecnico y mantenimiento evolutivo de aplicaciones en produccion.</li>
+              <li>Trabajo colaborativo en proyectos utilizando Docker, GitHub y bases de datos MySQL.</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <strong>Desarrollador Backend — Grupo Alianza</strong>
+            <div class="meta">Jun. 2025 - Ago. 2025 | Remoto</div>
+            <ul>
+              <li>Desarrollador Backend y Fullstack parcial especializado en Laravel, MySQL y Vue.js.</li>
+              <li>Disene, refactorice y optimice modulos internos para plataformas de gestion.</li>
+              <li>Unifique logicas repetidas para reducir codigo duplicado y mejorar la escalabilidad.</li>
+              <li>Optimice consultas SQL, evitando problemas N+1 y mejorando paginaciones, filtrados y rankings.</li>
+              <li>Automatice procesos como importaciones masivas utilizando Laravel Excel.</li>
+              <li>Documentacion tecnica y organizacion de tareas por proyectos y bloques de tiempo.</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <strong>Desarrollador Semisenior — LinkTIC</strong>
+            <div class="meta">Agosto 2024 - Enero 2025 | Remoto</div>
+            <ul>
+              <li>Desarrolle y mantuve aplicaciones utilizando PHP, Java y Docker en modalidad remota.</li>
+              <li>Participe en el desarrollo y actualizacion de aplicaciones moviles multiplataforma con Xamarin.</li>
+              <li>Analice requerimientos y desarrolle componentes siguiendo buenas practicas de desarrollo.</li>
+              <li>Optimice consultas y realice mantenimiento de bases de datos SQL y MySQL, incluyendo migraciones y mejoras de rendimiento.</li>
+              <li>Asegure el cumplimiento de procesos operativos, politicas de seguridad de la informacion y lineamientos internos.</li>
+              <li>Participe en reuniones clave para entender el alcance del proyecto y colaborar en el diseno tecnico de soluciones.</li>
+              <li>Trabaje en equipo con tecnologias como PHP, Java, Docker, Azure DevOps, SQL, MySQL, Xamarin, JavaScript y Linux.</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <strong>Desarrollador de Software — Wescreativo</strong>
+            <div class="meta">Julio 2022 - Mayo 2024 | Medellin / Remoto</div>
+            <ul>
+              <li>Utilice Laravel y React con Inertia para desarrollar caracteristicas importantes del proyecto.</li>
+              <li>Trabaje de forma estrecha con desarrolladores y disenadores para garantizar integraciones fluidas.</li>
+              <li>Use Git para control de versiones, resolviendo problemas de produccion y mejorando rendimiento y escalabilidad.</li>
+              <li>Implemente pruebas automatizadas, participe en reuniones regulares y mantuve documentacion actualizada.</li>
+              <li>Participe en proyectos remotos con Node.js, Tailwind CSS, WordPress, TypeScript, Docker, Git, DigitalOcean, Cloudflare, CyberPanel y AWS S3.</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <strong>Desarrollador de Software — Indoamericana</strong>
+            <div class="meta">Noviembre 2021 - Mayo 2022 | Bogota</div>
+            <ul>
+              <li>Desarrolle y mantuve aplicaciones web con PHP y JavaScript, aplicando soluciones eficientes y escalables.</li>
+              <li>Colabore en nuevas caracteristicas, optimizacion de codigo y correccion de errores para mejorar la estabilidad.</li>
+              <li>Implemente consultas y optimizaciones en MySQL para mejorar rendimiento y eficiencia.</li>
+              <li>Utilice Git y GitHub para mantener un flujo de trabajo estructurado y colaborativo.</li>
+              <li>Trabaje en proyectos con PHP, JavaScript, MySQL, Git, WordPress, Vue y Laravel.</li>
+              <li>Participe en reuniones tecnicas para discutir requisitos y proponer mejoras de arquitectura.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Logros</h2>
+          <div class="item"><strong>Becado por Platzi:</strong> Fui seleccionado como becario tras destacar en el desafio de Solidity con CELO. Resolvi problemas complejos, adquiri nuevas tecnicas de desarrollo y complete todas las tareas asignadas con alto nivel de compromiso. Esta experiencia fortalecio mis conocimientos en blockchain y desarrollo descentralizado.</div>
+        </div>
+
+        <div class="section">
+          <h2>Idiomas</h2>
+          <ul class="compact-list">
+            <li><strong>Espanol:</strong> Nativo</li>
+            <li><strong>Ingles:</strong> Competente (A2)</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Informacion Adicional</h2>
+          <ul class="compact-list">
+            <li>Actualmente curso un programa de ingles en Smart Academia de Idiomas, fortaleciendo habilidades de comunicacion oral y escrita.</li>
+            <li>Actualmente curso Ingenieria de Sistemas en la UNAD, con aproximadamente 40% del programa completado.</li>
+            <li>Apasionado por el codigo limpio y las mejores practicas en desarrollo de software.</li>
+            <li>Aprendiz rapido con fuertes habilidades para resolver problemas.</li>
+            <li>Disponible para trabajo remoto, hibrido o presencial y viajes ocasionales a Medellin, Bogota, Bucaramanga y Tunja.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div class="section">
+          <h2>Habilidades</h2>
+          <div class="skill-block"><strong>Lenguajes:</strong> Python, PHP, JavaScript, Java, SQL, C#, TypeScript, Dart, Node.js</div>
+          <div class="skill-block"><strong>Tecnologias en la nube:</strong> AWS (Lambda, S3, IAM), DigitalOcean, Azure, Firebase</div>
+          <div class="skill-block"><strong>Frameworks:</strong> Laravel, Vue.js, React, CodeIgniter, Django, Next.js, .NET Core</div>
+          <div class="skill-block"><strong>Bases de datos:</strong> MySQL, NoSQL, PostgreSQL, MongoDB, Redis</div>
+          <div class="skill-block"><strong>Control de versiones:</strong> Git, GitHub, GitHub Actions</div>
+          <div class="skill-block"><strong>Tecnologias web:</strong> HTML, CSS, Bootstrap, jQuery, Tailwind CSS</div>
+          <div class="skill-block"><strong>Otros:</strong> APIs RESTful, Docker, Linux, Postman, Swagger, Nginx, Apache</div>
+        </div>
+
+        <div class="section">
+          <h2>Educacion</h2>
+          <ul class="compact-list">
+            <li><strong>Tecnologo en Analisis y Desarrollo de Sistemas de Informacion</strong> - SENA, Velez / Santander | Marzo 2020 - Octubre 2022</li>
+            <li><strong>Actualmente estudiando Ingles</strong> - Smart Academia de Idiomas</li>
+            <li><strong>Actualmente estudiante de Ingenieria de Sistemas</strong> - UNAD</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Certificaciones</h2>
+          <ul class="compact-list">
+            <li><strong>SENA:</strong> Variables y Estructuras de Control en Programacion Orientada a Objetos: Java; Desarrollo de Aplicaciones con Interfaz Grafica, Manejo de Eventos, Clases y Objetos: Java; Desarrollo de Aplicaciones con Manejo de Datos en Memoria: Java; Desarrollo de Habilidades Digitales para la Gestion de Informacion; Analisis para el Desarrollo Movil con App Inventor; Aprendiz Digital; Habilidades para la Vida; English Dot Works 2; Redes y Seguridad.</li>
+            <li><strong>LinkedIn:</strong> Integracion HTML y CSS Esencial; Fundamentos de Programacion: Diseno Orientado a Objetos; GitHub para Desarrolladores; HTML Esencial.</li>
+            <li><strong>Coursera:</strong> Como resolver problemas y tomar decisiones con eficacia (University of California, Irvine); Data Analysis with Python (IBM).</li>
+            <li><strong>Platzi:</strong> Frontend con React.js (carrera), Desarrollo Web Backend con PHP (carrera), JavaScript Practico, JavaScript Profesional, Curso de PHP Laravel, Introduccion a Laravel, Laravel SPA, Laravel Avanzado, PHP Avanzado, Vue Avanzado, Vuejs Profesional, Git y GitHub, Economia Digital, Historia del Bitcoin, Historia de Ethereum, Blockchain de Bitcoin, Fundamentos de Arquitectura de Software, Profesional de Arquitectura de Software, Prework para Desarrollo de Aplicaciones Blockchain 2021, Java SE Orientado a Objetos, Introduccion a Solidity, Introduccion a Celo con Solidity, Curso de Docker, Angular: Creacion de Aplicaciones Web.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

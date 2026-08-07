@@ -119,6 +119,9 @@ export default function Hero({ profile }: HeroProps) {
   const { t, i18n } = useTranslation()
   const typed = useTypewriter(profile?.titleVariants ?? ['Full Stack Developer'])
   const profileImage = resolvePublicPath(profile?.avatar ?? '/profile.jpg')
+  const cvUrl = i18n.language === 'es'
+    ? new URL('../assets/cv/index-es.html', import.meta.url).href
+    : new URL('../assets/cv/index-en.html', import.meta.url).href
 
   const itemTransition: Transition = { duration: 0.6, ease: 'easeOut' as const }
   const containerVariants: Variants = {
@@ -201,8 +204,9 @@ export default function Hero({ profile }: HeroProps) {
           className="flex flex-wrap items-center justify-center gap-3 mb-12"
         >
           <motion.a
-            href={profile?.cv ? resolvePublicPath(profile.cv) : '#'}
-            download
+            href={cvUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.04, y: -2 }}
             whileTap={{ scale: 0.97 }}
             className="flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-colors duration-200 shadow-lg shadow-blue-500/25"
