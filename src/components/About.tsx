@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next'
 import SectionWrapper, { SectionHeader } from './SectionWrapper'
 import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi'
 import { motion } from 'framer-motion'
-import { profileImageDataUri } from '../lib/profileImageData'
 
 interface Profile {
   name: string
@@ -21,7 +20,7 @@ export default function About({ profile }: { profile: Profile | null }) {
   const { t, i18n } = useTranslation()
 
   const aboutText = i18n.language === 'es' ? profile?.about : profile?.aboutEn
-  const profileImage = profileImageDataUri
+  const profileImage = profile?.avatar ?? '/profile.jpg'
 
   return (
     <SectionWrapper id="about" className="bg-[var(--secondary)]/30">
