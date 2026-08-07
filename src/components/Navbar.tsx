@@ -60,7 +60,7 @@ export default function Navbar({ dark, toggleTheme }: NavbarProps) {
           : 'bg-[var(--background)]/80'
       }`}
     >
-      <div className="relative max-w-7xl mx-auto w-full px-3 sm:px-4 lg:px-8 h-16 flex items-center justify-between gap-2">
+      <div className="relative max-w-7xl mx-auto w-full px-3 sm:px-4 lg:px-8 h-16 flex items-center justify-between gap-2 overflow-hidden">
         {/* Logo */}
         <motion.button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
@@ -71,13 +71,13 @@ export default function Navbar({ dark, toggleTheme }: NavbarProps) {
         </motion.button>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-1">
+        <div className="hidden lg:flex items-center gap-1 min-w-0">
           {navLinks.map((link) => (
             <button
               type="button"
               key={link}
               onClick={() => scrollTo(link)}
-              className={`px-3 py-1.5 text-sm rounded-lg transition-all duration-200 cursor-pointer bg-transparent border-none font-medium ${
+              className={`px-3 py-1.5 text-sm rounded-lg transition-all duration-200 cursor-pointer bg-transparent border-none font-medium whitespace-nowrap ${
                 active === link
                   ? 'text-blue-500 bg-blue-500/10'
                   : 'text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:bg-[var(--secondary)]'
@@ -89,7 +89,7 @@ export default function Navbar({ dark, toggleTheme }: NavbarProps) {
         </div>
 
         {/* Controls */}
-        <div className="flex items-center gap-1 sm:gap-2 min-w-0">
+        <div className="flex items-center gap-1 sm:gap-2 min-w-0 flex-shrink-0">
           <button
             onClick={toggleLang}
             className="px-2 py-1 text-[10px] sm:text-xs font-semibold rounded-lg border border-[var(--border)] text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-blue-500 transition-all duration-200 cursor-pointer bg-transparent uppercase tracking-wider"
@@ -105,7 +105,7 @@ export default function Navbar({ dark, toggleTheme }: NavbarProps) {
           </button>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center cursor-pointer bg-transparent text-[var(--foreground)]"
+            className="lg:hidden w-9 h-9 rounded-lg border border-[var(--border)] flex items-center justify-center cursor-pointer bg-transparent text-[var(--foreground)]"
             aria-label="Toggle menu"
           >
             {mobileOpen ? <FiX size={16} /> : <FiMenu size={16} />}
@@ -121,7 +121,7 @@ export default function Navbar({ dark, toggleTheme }: NavbarProps) {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.25 }}
-            className="md:hidden glass border-t border-[var(--border)] px-4 pb-4 pt-2"
+            className="lg:hidden glass border-t border-[var(--border)] px-4 pb-4 pt-2"
           >
             {navLinks.map((link) => (
               <button
