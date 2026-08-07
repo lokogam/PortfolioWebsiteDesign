@@ -1,5 +1,13 @@
 {
-  "description": "Showcase your skills and projects with a modern, responsive portfolio designed for Full Stack developers, featuring smooth animations and easy content management.",
+  "title": "Duvan Gamboa | Desarrollador Full Stack - Soluciones Web",
+  "description": "Portafolio profesional con proyectos en Laravel, React y Vue.js. +4 años desarrollando aplicaciones web escalables.",
+  "language": "es",
+  "icons": {
+    "icon": "/favicon.svg"
+  },
+  "openGraph": {
+    "image": "https://duvangamboa.dev/Open-Graph.jpg"
+  },
   "robots": {
     "index": true
   },
