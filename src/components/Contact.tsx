@@ -19,14 +19,55 @@ export default function Contact({ profile }: { profile: Profile | null }) {
   const [sent, setSent] = useState(false)
   const [loading, setLoading] = useState(false)
   const [submitState, setSubmitState] = useState<'success' | 'error' | null>(null)
+  const useSplitForms = import.meta.env.VITE_USE_SPLITFORMS === 'true'
+  const splitFormsAccessKey = import.meta.env.VITE_SPLITFORMS_ACCESS_KEY as string | undefined
   const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined
   const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string | undefined
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setLoading(true)
     setSubmitState(null)
+
+    if (useSplitForms) {
+      if (!splitFormsAccessKey) {
+        console.error('SplitForms access key missing. Check VITE_SPLITFORMS_ACCESS_KEY.')
+        setSubmitState('error')
+        setLoading(false)
+        return
+      }
+
+      try {
+        const data = new FormData(e.currentTarget)
+        data.append('access_key', splitFormsAccessKey)
+        data.append('subject', 'Portfolio contact')
+
+        const response = await fetch('https://splitforms.com/api/submit', {
+          method: 'POST',
+          body: data,
+          headers: {
+            Accept: 'application/json',
+          },
+        })
+
+        const json = await response.json()
+        if (json.success) {
+          setSent(true)
+          setSubmitState('success')
+          setForm({ name: '', email: '', message: '' })
+        } else {
+          setSubmitState('error')
+        }
+      } catch (error) {
+        console.error('SplitForms send error:', error)
+        setSubmitState('error')
+      } finally {
+        setLoading(false)
+      }
+
+      return
+    }
 
     if (!serviceId || !templateId || !publicKey) {
       console.error('EmailJS config missing. Check VITE_EMAILJS_* variables at build time.')
@@ -115,6 +156,7 @@ export default function Contact({ profile }: { profile: Profile | null }) {
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
+                <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
                 {submitState && (
                   <div
                     role="alert"
@@ -136,6 +178,7 @@ export default function Contact({ profile }: { profile: Profile | null }) {
                   </label>
                   <input
                     type="text"
+                    name="name"
                     required
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -149,6 +192,7 @@ export default function Contact({ profile }: { profile: Profile | null }) {
                   </label>
                   <input
                     type="email"
+                    name="email"
                     required
                     value={form.email}
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -161,6 +205,7 @@ export default function Contact({ profile }: { profile: Profile | null }) {
                     {t('contact.message')}
                   </label>
                   <textarea
+                    name="message"
                     required
                     rows={5}
                     value={form.message}
